@@ -1,0 +1,191 @@
+{
+  "paths": [
+    {
+      "_path": "Library/usr/bin/cygcheck.exe",
+      "path_type": "hardlink",
+      "sha256": "e31d9e99ad6d4ca09f058aac46ba0fb278a5e339cffc0e1b696c1376109aa744",
+      "size_in_bytes": 498255
+    },
+    {
+      "_path": "Library/usr/bin/cygpath.exe",
+      "path_type": "hardlink",
+      "sha256": "d55240ff6917ed7dd6eba86dbeb0f1973ddcdefe78119de75246645007ba4ba2",
+      "size_in_bytes": 129818
+    },
+    {
+      "_path": "Library/usr/bin/cygwin-console-helper.exe",
+      "path_type": "hardlink",
+      "sha256": "99f406f060b2e9b15268ee63ac47828a4fbbadec549040ce355c88239d774a46",
+      "size_in_bytes": 136878
+    },
+    {
+      "_path": "Library/usr/bin/dumper.exe",
+      "path_type": "hardlink",
+      "sha256": "d343e364ffb977c8fe0e66b4ef81ed9698645b3a340e2366fc21d96870a4aac7",
+      "size_in_bytes": 2448865
+    },
+    {
+      "_path": "Library/usr/bin/getconf.exe",
+      "path_type": "hardlink",
+      "sha256": "d458ca38f04be2e2f0238b7321e7bd0bf5d7cd3e7be8db2236b901277c4b9641",
+      "size_in_bytes": 79589
+    },
+    {
+      "_path": "Library/usr/bin/getfacl.exe",
+      "path_type": "hardlink",
+      "sha256": "ad4710c95f6744337d06a3e52ef3a32b2fb107de7853d9e2e689c324c1370cc2",
+      "size_in_bytes": 75001
+    },
+    {
+      "_path": "Library/usr/bin/kill.exe",
+      "path_type": "hardlink",
+      "sha256": "9d9045a7d67fa4d398559e5a7abc4c34523d167c7874687234efef0dc060c396",
+      "size_in_bytes": 83674
+    },
+    {
+      "_path": "Library/usr/bin/ldd.exe",
+      "path_type": "hardlink",
+      "sha256": "4f3a3eb779fed9be8f9f5f40488300adc5b3a586b84e94369d5c7b71c2a2a4bb",
+      "size_in_bytes": 101559
+    },
+    {
+      "_path": "Library/usr/bin/ldh.exe",
+      "path_type": "hardlink",
+      "sha256": "ef84671542067facd8b6b7d60375c3e86f487322ceb066cc22e898efb4259642",
+      "size_in_bytes": 10531
+    },
+    {
+      "_path": "Library/usr/bin/locale.exe",
+      "path_type": "hardlink",
+      "sha256": "b326c64c2dd06b3dbb741958e7e0fec359732b7ab902a3cdda2f26893f902102",
+      "size_in_bytes": 114733
+    },
+    {
+      "_path": "Library/usr/bin/minidumper.exe",
+      "path_type": "hardlink",
+      "sha256": "8d05b5fc25046a2ce2da68b9f3fa1bb23ad80ee32ded81fcb3a79d4fb4cdaf88",
+      "size_in_bytes": 76998
+    },
+    {
+      "_path": "Library/usr/bin/mkgroup.exe",
+      "path_type": "hardlink",
+      "sha256": "e86ddbcfdb79c46ca7ee5355c860534d71cb0b0bf033f70fa4ace44a338b8cf8",
+      "size_in_bytes": 104894
+    },
+    {
+      "_path": "Library/usr/bin/mkpasswd.exe",
+      "path_type": "hardlink",
+      "sha256": "bf4bc9b94f3265d5f8618ec589850c6185f5598fa2b7d9986a18eeb7a0148d3b",
+      "size_in_bytes": 103719
+    },
+    {
+      "_path": "Library/usr/bin/mount.exe",
+      "path_type": "hardlink",
+      "sha256": "52cceed3362c34f0ef253e6900e09eee8bc50d63a99e763689550572d57d8716",
+      "size_in_bytes": 107673
+    },
+    {
+      "_path": "Library/usr/bin/msys-2.0.dll",
+      "path_type": "hardlink",
+      "sha256": "7a7e22b32982e56339b352039f081ea1339890f6fe16041c6e1549a2d6164c07",
+      "size_in_bytes": 3525210
+    },
+    {
+      "_path": "Library/usr/bin/passwd.exe",
+      "path_type": "hardlink",
+      "sha256": "2bf7939f276ade2f49ecb2793fadf725d92344ca5b28dc95c2f3a43087076ddd",
+      "size_in_bytes": 101422
+    },
+    {
+      "_path": "Library/usr/bin/pldd.exe",
+      "path_type": "hardlink",
+      "sha256": "ea8e08d8106b582f35fc92f6b00a05a437099b78968bef412909a265542d7e1a",
+      "size_in_bytes": 67493
+    },
+    {
+      "_path": "Library/usr/bin/ps.exe",
+      "path_type": "hardlink",
+      "sha256": "6344d02f62bd90f01a615c2236a7507de6d5ac8fff68814ba406050e2062fd30",
+      "size_in_bytes": 89634
+    },
+    {
+      "_path": "Library/usr/bin/regtool.exe",
+      "path_type": "hardlink",
+      "sha256": "e9650dec29b7790849d80a52975dfc620a2703ae8e7b129530200c8730dc6201",
+      "size_in_bytes": 109309
+    },
+    {
+      "_path": "Library/usr/bin/setfacl.exe",
+      "path_type": "hardlink",
+      "sha256": "52147c13b895882248f594b5daa84a77ceb9e3a234cc33e3ecfd1d3ba4bb54c3",
+      "size_in_bytes": 95244
+    },
+    {
+      "_path": "Library/usr/bin/setmetamode.exe",
+      "path_type": "hardlink",
+      "sha256": "5f8d5a1b91348337a890d8a46161c27f251115311f4f4421ff849fa76d935726",
+      "size_in_bytes": 60556
+    },
+    {
+      "_path": "Library/usr/bin/ssp.exe",
+      "path_type": "hardlink",
+      "sha256": "a1e400df586a97475a92524b00117524deb6623b47c605589d570bbbb226a11d",
+      "size_in_bytes": 97679
+    },
+    {
+      "_path": "Library/usr/bin/strace.exe",
+      "path_type": "hardlink",
+      "sha256": "0a102a0c415bc0529f581c89cdc6c22345750098d5455152a46e2a1432a2dd6f",
+      "size_in_bytes": 268322
+    },
+    {
+      "_path": "Library/usr/bin/tzset.exe",
+      "path_type": "hardlink",
+      "sha256": "1ee408a100968873eaf79b89c0ce817bbc5fcadcbeb1e99f5cf712b3823d4626",
+      "size_in_bytes": 105359
+    },
+    {
+      "_path": "Library/usr/bin/umount.exe",
+      "path_type": "hardlink",
+      "sha256": "d29bfec923bf4acc447df9400832843485dec8b375a7f6164a06b303883d9d82",
+      "size_in_bytes": 66726
+    },
+    {
+      "_path": "Library/usr/share/cygwin/cygwin.ldif",
+      "path_type": "hardlink",
+      "sha256": "79aa95224ba6f373c4088d6e55deb220da92c1da212f32a3dadc8ef3b9616689",
+      "size_in_bytes": 6195
+    },
+    {
+      "_path": "Library/usr/share/doc/Msys/COPYING",
+      "path_type": "hardlink",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "size_in_bytes": 35147
+    },
+    {
+      "_path": "Library/usr/share/doc/Msys/CYGWIN_LICENSE",
+      "path_type": "hardlink",
+      "sha256": "dd3f9748d5e63d61ba873305a2f9dac9a1fbc2152e923bf656ce329ed1898411",
+      "size_in_bytes": 2964
+    },
+    {
+      "_path": "Library/usr/share/doc/Msys/cygserver.README",
+      "path_type": "hardlink",
+      "sha256": "a311d924c6a11e6107b498f2a6e8b04a54cf24b4b8533cfb8fcd64bd899179ed",
+      "size_in_bytes": 8136
+    },
+    {
+      "_path": "Library/usr/share/man/man3/regex.3.gz",
+      "path_type": "hardlink",
+      "sha256": "a56618ee997a62c1afb5824c69956cc188f7955b57fef95e50f316b958f65bdc",
+      "size_in_bytes": 6488
+    },
+    {
+      "_path": "Library/usr/share/man/man7/regex.7.gz",
+      "path_type": "hardlink",
+      "sha256": "6fecaf141eb6dcca21a13d6c3add18f74279aa503399896b440b23e2372cdf1e",
+      "size_in_bytes": 4756
+    }
+  ],
+  "paths_version": 1
+}

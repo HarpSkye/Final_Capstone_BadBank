@@ -1,0 +1,203 @@
+2019-06-29 16:18:12,764 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-06-29 16:18:12,792 [     28]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2019-06-29 16:18:12,792 [     28]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2019-06-29 16:18:12,792 [     28]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-06-29 16:18:12,792 [     28]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-06-29 16:18:12,797 [     33]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2019-06-29 16:18:12,797 [     33]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2019-06-29 16:18:12,797 [     33]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2019-06-29 16:18:12,812 [     48]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 14 ms 
+2019-06-29 16:18:12,817 [     53]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2019-06-29 16:18:12,895 [    131]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-06-29 16:18:12,985 [    221]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (JRE-managed HiDPI) 
+2019-06-29 16:18:17,757 [   4993]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-06-29 16:18:23,080 [  10316]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-06-29 16:18:23,127 [  10363]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-06-29 16:18:23,128 [  10364]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-06-29 16:18:23,175 [  10411]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 319 ms 
+2019-06-29 16:18:28,941 [  16177]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-06-29 16:18:28,953 [  16189]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-06-29 16:18:28,954 [  16190]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-06-29 16:18:29,003 [  16239]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 83 ms 
+2019-06-29 16:18:30,987 [  18223]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-06-29 16:18:30,992 [  18228]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-06-29 16:44:28,317 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-06-29 16:44:28,342 [     25]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2019-06-29 16:44:28,342 [     25]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2019-06-29 16:44:28,342 [     25]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-06-29 16:44:28,342 [     25]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-06-29 16:44:28,344 [     27]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2019-06-29 16:44:28,344 [     27]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2019-06-29 16:44:28,344 [     27]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2019-06-29 16:44:28,359 [     42]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 15 ms 
+2019-06-29 16:44:28,361 [     44]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2019-06-29 16:44:28,423 [    106]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-06-29 16:44:28,812 [    495]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-06-29 16:44:28,813 [    496]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-06-29 16:44:28,819 [    502]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-06-29 16:44:28,867 [    550]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 139 ms 
+2019-06-29 16:44:28,911 [    594]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (JRE-managed HiDPI) 
+2019-06-29 16:44:30,938 [   2621]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-06-29 16:44:30,939 [   2622]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-07-27 20:49:38,316 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-07-27 20:49:38,364 [     48]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2019-07-27 20:49:38,364 [     48]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2019-07-27 20:49:38,364 [     48]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-07-27 20:49:38,364 [     48]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-07-27 20:49:38,372 [     56]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2019-07-27 20:49:38,373 [     57]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2019-07-27 20:49:38,373 [     57]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2019-07-27 20:49:38,391 [     75]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 18 ms 
+2019-07-27 20:49:38,398 [     82]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2019-07-27 20:49:38,540 [    224]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-07-27 20:49:39,235 [    919]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-07-27 20:49:39,378 [   1062]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-07-27 20:49:39,382 [   1066]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-07-27 20:49:39,476 [   1160]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 545 ms 
+2019-07-27 20:49:39,558 [   1242]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (JRE-managed HiDPI) 
+2019-07-27 20:50:02,028 [  23712]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-07-27 20:50:02,032 [  23716]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-08-28 07:07:22,553 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-08-28 07:07:22,600 [     47]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2019-08-28 07:07:22,600 [     47]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2019-08-28 07:07:22,600 [     47]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2019-08-28 07:07:22,600 [     47]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2019-08-28 07:07:22,607 [     54]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2019-08-28 07:07:22,607 [     54]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2019-08-28 07:07:22,607 [     54]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2019-08-28 07:07:22,626 [     73]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 18 ms 
+2019-08-28 07:07:22,628 [     75]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2019-08-28 07:07:22,762 [    209]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-08-28 07:07:23,388 [    835]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-08-28 07:07:23,458 [    905]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-08-28 07:07:23,459 [    906]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-08-28 07:07:23,517 [    964]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 371 ms 
+2019-08-28 07:07:23,590 [   1037]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (JRE-managed HiDPI) 
+2019-08-28 07:07:31,202 [   8649]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-08-28 07:07:31,206 [   8653]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-13 21:44:22,139 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-06-13 21:44:22,188 [     49]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2020-06-13 21:44:22,189 [     50]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-06-13 21:44:22,189 [     50]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2020-06-13 21:44:22,189 [     50]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2020-06-13 21:44:22,197 [     58]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2020-06-13 21:44:22,198 [     59]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-06-13 21:44:22,198 [     59]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-06-13 21:44:22,218 [     79]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 20 ms 
+2020-06-13 21:44:22,227 [     88]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-06-13 21:44:22,369 [    230]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2020-06-13 21:44:23,081 [    942]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2020-06-13 21:44:23,165 [   1026]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2020-06-13 21:44:23,165 [   1026]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2020-06-13 21:44:23,230 [   1091]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 423 ms 
+2020-06-13 21:44:23,306 [   1167]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (JRE-managed HiDPI) 
+2020-06-13 21:44:27,331 [   5192]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-06-13 21:44:27,336 [   5197]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-08-17 15:17:43,237 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-08-17 15:17:43,294 [     57]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2020-08-17 15:17:43,294 [     57]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-08-17 15:17:43,294 [     57]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2020-08-17 15:17:43,294 [     57]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2020-08-17 15:17:43,311 [     74]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2020-08-17 15:17:43,311 [     74]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-08-17 15:17:43,312 [     75]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-08-17 15:17:43,336 [     99]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 24 ms 
+2020-08-17 15:17:43,344 [    107]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-08-17 15:17:43,491 [    254]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2020-08-17 15:17:44,239 [   1002]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2020-08-17 15:17:44,325 [   1088]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2020-08-17 15:17:44,325 [   1088]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2020-08-17 15:17:44,391 [   1154]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 461 ms 
+2020-08-17 15:17:44,469 [   1232]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (JRE-managed HiDPI) 
+2020-08-17 15:18:49,516 [  66279]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-08-17 15:18:49,523 [  66286]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-09-18 20:03:25,345 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-09-18 20:03:25,397 [     52]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2021-09-18 20:03:25,397 [     52]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2021-09-18 20:03:25,397 [     52]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2021-09-18 20:03:25,397 [     52]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2021-09-18 20:03:25,408 [     63]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2021-09-18 20:03:25,409 [     64]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2021-09-18 20:03:25,409 [     64]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2021-09-18 20:03:25,434 [     89]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 25 ms 
+2021-09-18 20:03:25,452 [    107]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2021-09-18 20:03:25,630 [    285]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2021-09-18 20:03:26,722 [   1377]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2021-09-18 20:03:26,802 [   1457]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2021-09-18 20:03:26,803 [   1458]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2021-09-18 20:03:26,874 [   1529]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 501 ms 
+2021-09-18 20:03:26,955 [   1610]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.5 (JRE-managed HiDPI) 
+2021-09-18 20:04:21,188 [  55843]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-09-18 20:04:21,205 [  55860]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-11-01 19:54:28,028 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-11-01 19:54:28,086 [     58]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2021-11-01 19:54:28,086 [     58]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2021-11-01 19:54:28,086 [     58]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2021-11-01 19:54:28,087 [     59]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2021-11-01 19:54:28,096 [     68]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2021-11-01 19:54:28,096 [     68]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2021-11-01 19:54:28,096 [     68]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2021-11-01 19:54:28,120 [     92]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 24 ms 
+2021-11-01 19:54:28,129 [    101]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2021-11-01 19:54:28,278 [    250]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2021-11-01 19:54:29,059 [   1031]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2021-11-01 19:54:29,137 [   1109]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2021-11-01 19:54:29,137 [   1109]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2021-11-01 19:54:29,215 [   1187]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 469 ms 
+2021-11-01 19:54:29,293 [   1265]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.5 (JRE-managed HiDPI) 
+2021-11-01 19:54:32,837 [   4809]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-11-01 19:54:32,845 [   4817]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-11-03 18:32:38,599 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-11-03 18:32:38,645 [     46]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2021-11-03 18:32:38,645 [     46]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2021-11-03 18:32:38,645 [     46]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2021-11-03 18:32:38,645 [     46]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2021-11-03 18:32:38,661 [     62]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2021-11-03 18:32:38,661 [     62]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2021-11-03 18:32:38,661 [     62]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2021-11-03 18:32:38,677 [     78]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 16 ms 
+2021-11-03 18:32:38,692 [     93]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2021-11-03 18:32:38,849 [    250]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2021-11-03 18:32:40,135 [   1536]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2021-11-03 18:32:40,215 [   1616]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2021-11-03 18:32:40,216 [   1617]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2021-11-03 18:32:40,285 [   1686]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 487 ms 
+2021-11-03 18:32:40,363 [   1764]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.5 (JRE-managed HiDPI) 
+2021-11-03 18:32:43,607 [   5008]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-11-03 18:32:43,611 [   5012]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2021-12-23 05:19:18,046 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2021-12-23 05:19:18,103 [     57]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2021-12-23 05:19:18,103 [     57]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2021-12-23 05:19:18,103 [     57]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2021-12-23 05:19:18,103 [     57]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2021-12-23 05:19:18,114 [     68]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2021-12-23 05:19:18,114 [     68]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2021-12-23 05:19:18,114 [     68]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2021-12-23 05:19:18,140 [     94]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 25 ms 
+2021-12-23 05:19:18,151 [    105]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2021-12-23 05:19:18,308 [    262]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2021-12-23 05:19:19,466 [   1420]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2021-12-23 05:19:19,559 [   1513]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2021-12-23 05:19:19,560 [   1514]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2021-12-23 05:19:19,630 [   1584]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 528 ms 
+2021-12-23 05:19:19,715 [   1669]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.5 (JRE-managed HiDPI) 
+2021-12-23 05:19:24,621 [   6575]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2021-12-23 05:19:24,624 [   6578]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2022-03-10 11:54:24,714 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2022-03-10 11:54:24,766 [     52]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.7479.51, 18 Jun 2019 06:36) 
+2022-03-10 11:54:24,766 [     52]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2022-03-10 11:54:24,766 [     52]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b53 (JetBrains s.r.o) 
+2022-03-10 11:54:24,766 [     52]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b53 (OpenJDK 64-Bit Server VM) 
+2022-03-10 11:54:24,776 [     62]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djb.vmOptionsFile=C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin\phpstorm64.exe.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=PhpStorm2019.1 -XX:ErrorFile=C:\Users\Skye\java_error_in_phpstorm_%p.log -XX:HeapDumpPath=C:\Users\Skye\java_error_in_phpstorm.hprof 
+2022-03-10 11:54:24,776 [     62]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\JetBrains\PhpStorm 2019.1.3\jre64\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2022-03-10 11:54:24,776 [     62]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2022-03-10 11:54:24,799 [     85]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 22 ms 
+2022-03-10 11:54:24,809 [     95]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2022-03-10 11:54:24,970 [    256]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2022-03-10 11:54:26,021 [   1307]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2022-03-10 11:54:26,106 [   1392]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2022-03-10 11:54:26,106 [   1392]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2022-03-10 11:54:26,175 [   1461]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 500 ms 
+2022-03-10 11:54:26,259 [   1545]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (JRE-managed HiDPI) 
+2022-03-10 11:54:28,773 [   4059]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2022-03-10 11:54:28,778 [   4064]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

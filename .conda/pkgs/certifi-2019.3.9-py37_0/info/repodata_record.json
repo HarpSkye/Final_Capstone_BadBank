@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "certifi-2019.3.9-py37_0.tar.bz2",
+  "license": "ISC",
+  "md5": "aab7b1c4580bac0da59d1facbc2e0b26",
+  "name": "certifi",
+  "platform": "win32",
+  "size": 152321,
+  "subdir": "win-64",
+  "timestamp": 1552136374849,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/certifi-2019.3.9-py37_0.tar.bz2",
+  "version": "2019.3.9"
+}

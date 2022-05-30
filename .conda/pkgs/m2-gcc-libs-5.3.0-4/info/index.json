@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "4",
+  "build_number": 4,
+  "depends": [
+    "m2-msys2-runtime",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "license": "GPL, LGPL, FDL, custom",
+  "name": "m2-gcc-libs",
+  "platform": "win",
+  "subdir": "win-64",
+  "version": "5.3.0"
+}

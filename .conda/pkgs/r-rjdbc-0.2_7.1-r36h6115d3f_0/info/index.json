@@ -1,0 +1,19 @@
+{
+  "arch": null,
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "depends": [
+    "openjdk",
+    "r-base >=3.6,<3.7.0a0",
+    "r-dbi",
+    "r-rjava >=0.4_15"
+  ],
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "name": "r-rjdbc",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1557986066161,
+  "version": "0.2_7.1"
+}

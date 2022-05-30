@@ -1,0 +1,24 @@
+{
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-packrat-0.5.0-r36h6115d3f_0.tar.bz2",
+  "license": "GPL-2",
+  "license_family": "GPL2",
+  "md5": "1eb277cef4e31b13eb9e12470eaac63d",
+  "name": "r-packrat",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "size": 485910,
+  "subdir": "noarch",
+  "timestamp": 1557948710688,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/noarch/r-packrat-0.5.0-r36h6115d3f_0.tar.bz2",
+  "version": "0.5.0"
+}

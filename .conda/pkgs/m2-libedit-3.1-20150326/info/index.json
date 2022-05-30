@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "20150326",
+  "build_number": 20150326,
+  "depends": [
+    "m2-bash",
+    "m2-msys2-runtime",
+    "m2-ncurses",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "license": "GPL, BSD",
+  "name": "m2-libedit",
+  "platform": "win",
+  "subdir": "win-64",
+  "version": "3.1"
+}

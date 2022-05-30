@@ -1,0 +1,76 @@
+[I 19:59:13.780 NotebookApp] The port 8888 is already in use, trying another port.
+[I 19:59:13.781 NotebookApp] The port 8889 is already in use, trying another port.
+[I 19:59:13.781 NotebookApp] The port 8890 is already in use, trying another port.
+[I 19:59:13.885 NotebookApp] JupyterLab extension loaded from C:\ProgramData\Anaconda3\lib\site-packages\jupyterlab
+[I 19:59:13.885 NotebookApp] JupyterLab application directory is C:\ProgramData\Anaconda3\share\jupyter\lab
+[I 19:59:13.886 NotebookApp] Serving notebooks from local directory: C:\Users\Skye
+[I 19:59:13.886 NotebookApp] The Jupyter Notebook is running at:
+[I 19:59:13.891 NotebookApp] http://localhost:8891/?token=730c0754d311af1adcf1173bc7a712e9722fca254392b7e6
+[I 19:59:13.891 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:59:13.941 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/Skye/AppData/Roaming/jupyter/runtime/nbserver-18048-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8891/?token=730c0754d311af1adcf1173bc7a712e9722fca254392b7e6
+[W 19:59:39.721 NotebookApp] Notebook Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/cluster.ipynb is not trusted
+[I 19:59:39.882 NotebookApp] Kernel started: ab5c8866-134a-42ed-8925-fbcda16ff3dd
+[I 19:59:40.954 NotebookApp] Adapting to protocol v5.1 for kernel ab5c8866-134a-42ed-8925-fbcda16ff3dd
+[I 20:01:39.851 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/cluster.ipynb
+[I 20:03:39.844 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/cluster.ipynb
+[I 20:05:39.848 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/cluster.ipynb
+[I 20:07:39.843 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/cluster.ipynb
+[I 20:09:39.854 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/cluster.ipynb
+[I 20:12:44.992 NotebookApp] Creating new notebook in /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03
+[I 20:12:45.534 NotebookApp] Kernel started: 883c6ddb-108e-422e-86fc-a97eb2a56f68
+[I 20:12:46.639 NotebookApp] Adapting to protocol v5.1 for kernel 883c6ddb-108e-422e-86fc-a97eb2a56f68
+[I 20:13:39.857 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/cluster.ipynb
+[I 20:14:45.577 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/Untitled.ipynb
+[I 20:14:56.379 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/Untitled.ipynb
+[I 20:16:45.550 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/Untitled.ipynb
+[I 20:18:45.554 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/Untitled.ipynb
+[I 20:19:20.087 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/Untitled.ipynb
+[I 20:20:45.536 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/Untitled.ipynb
+[I 20:22:45.545 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/05_03/Untitled.ipynb
+[I 20:40:17.378 NotebookApp] Kernel shutdown: ab5c8866-134a-42ed-8925-fbcda16ff3dd
+[I 20:40:17.684 NotebookApp] Kernel shutdown: 883c6ddb-108e-422e-86fc-a97eb2a56f68
+[W 20:40:26.270 NotebookApp] Notebook Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/conjoint.ipynb is not trusted
+[I 20:40:26.381 NotebookApp] Kernel started: 29a8061d-a95d-446b-8cc2-01e4df137c3f
+[I 20:40:27.526 NotebookApp] Adapting to protocol v5.1 for kernel 29a8061d-a95d-446b-8cc2-01e4df137c3f
+[I 20:40:36.179 NotebookApp] Creating new notebook in /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03
+[I 20:40:36.697 NotebookApp] Kernel started: ae161343-4d65-407e-9ec6-5c8fc33cd4d0
+[I 20:40:37.871 NotebookApp] Adapting to protocol v5.1 for kernel ae161343-4d65-407e-9ec6-5c8fc33cd4d0
+[I 20:42:26.401 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/conjoint.ipynb
+[W 20:42:26.402 NotebookApp] Notebook Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/conjoint.ipynb is not trusted
+[I 20:42:36.715 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/Untitled.ipynb
+[I 20:44:36.703 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/Untitled.ipynb
+[I 20:46:26.396 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/conjoint.ipynb
+[W 20:46:26.396 NotebookApp] Notebook Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/conjoint.ipynb is not trusted
+[I 20:46:36.695 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/Untitled.ipynb
+[I 20:48:36.704 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/Untitled.ipynb
+[I 20:50:36.713 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/Untitled.ipynb
+[I 20:52:36.699 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/Untitled.ipynb
+[I 20:54:36.697 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/Untitled.ipynb
+[I 20:56:36.723 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/Untitled.ipynb
+[I 20:58:36.943 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/06_03/Untitled.ipynb
+[I 21:08:14.345 NotebookApp] Starting buffering for ae161343-4d65-407e-9ec6-5c8fc33cd4d0:f7609cee87d4477b8f379e81d4066a6e
+[I 21:08:14.345 NotebookApp] Starting buffering for 29a8061d-a95d-446b-8cc2-01e4df137c3f:ae1f858dbf684724927a769f4f1fba90
+[W 07:02:12.973 NotebookApp] 404 GET /api/kernels/ab5c8866-134a-42ed-8925-fbcda16ff3dd/channels?session_id=7e9f7b2441044b7d874c7ae5d94a177c (::1): Kernel does not exist: ab5c8866-134a-42ed-8925-fbcda16ff3dd
+[W 07:02:12.973 NotebookApp] 404 GET /api/kernels/ab5c8866-134a-42ed-8925-fbcda16ff3dd/channels?session_id=7e9f7b2441044b7d874c7ae5d94a177c (::1) 0.00ms referer=None
+[I 07:02:12.994 NotebookApp] Adapting to protocol v5.1 for kernel 29a8061d-a95d-446b-8cc2-01e4df137c3f
+[I 07:02:12.994 NotebookApp] Restoring connection for 29a8061d-a95d-446b-8cc2-01e4df137c3f:ae1f858dbf684724927a769f4f1fba90
+[I 07:02:13.009 NotebookApp] Adapting to protocol v5.1 for kernel ae161343-4d65-407e-9ec6-5c8fc33cd4d0
+[I 07:02:13.009 NotebookApp] Restoring connection for ae161343-4d65-407e-9ec6-5c8fc33cd4d0:f7609cee87d4477b8f379e81d4066a6e
+[W 07:02:13.023 NotebookApp] 404 GET /api/kernels/883c6ddb-108e-422e-86fc-a97eb2a56f68/channels?session_id=5c8c6d397a6b4f268493b20e49042f4c (::1): Kernel does not exist: 883c6ddb-108e-422e-86fc-a97eb2a56f68
+[W 07:02:13.024 NotebookApp] 404 GET /api/kernels/883c6ddb-108e-422e-86fc-a97eb2a56f68/channels?session_id=5c8c6d397a6b4f268493b20e49042f4c (::1) 2.99ms referer=None
+[W 07:02:17.672 NotebookApp] Replacing stale connection: ab5c8866-134a-42ed-8925-fbcda16ff3dd:7e9f7b2441044b7d874c7ae5d94a177c
+[W 07:02:17.975 NotebookApp] Replacing stale connection: 883c6ddb-108e-422e-86fc-a97eb2a56f68:5c8c6d397a6b4f268493b20e49042f4c
+[W 07:06:26.650 NotebookApp] Replacing stale connection: ab5c8866-134a-42ed-8925-fbcda16ff3dd:7e9f7b2441044b7d874c7ae5d94a177c
+[W 07:06:26.953 NotebookApp] Replacing stale connection: 883c6ddb-108e-422e-86fc-a97eb2a56f68:5c8c6d397a6b4f268493b20e49042f4c
+[W 07:10:43.647 NotebookApp] Replacing stale connection: ab5c8866-134a-42ed-8925-fbcda16ff3dd:7e9f7b2441044b7d874c7ae5d94a177c
+[W 07:10:43.952 NotebookApp] Replacing stale connection: 883c6ddb-108e-422e-86fc-a97eb2a56f68:5c8c6d397a6b4f268493b20e49042f4c
+[W 07:15:16.650 NotebookApp] Replacing stale connection: ab5c8866-134a-42ed-8925-fbcda16ff3dd:7e9f7b2441044b7d874c7ae5d94a177c
+[W 07:15:16.952 NotebookApp] Replacing stale connection: 883c6ddb-108e-422e-86fc-a97eb2a56f68:5c8c6d397a6b4f268493b20e49042f4c
+[W 07:20:21.655 NotebookApp] Replacing stale connection: 883c6ddb-108e-422e-86fc-a97eb2a56f68:5c8c6d397a6b4f268493b20e49042f4c
+[I 07:41:39.250 NotebookApp] Starting buffering for 29a8061d-a95d-446b-8cc2-01e4df137c3f:ae1f858dbf684724927a769f4f1fba90
+[I 07:41:42.933 NotebookApp] Starting buffering for ae161343-4d65-407e-9ec6-5c8fc33cd4d0:f7609cee87d4477b8f379e81d4066a6e

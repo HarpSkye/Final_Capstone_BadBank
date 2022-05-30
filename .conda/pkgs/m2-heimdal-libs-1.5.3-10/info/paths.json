@@ -1,0 +1,101 @@
+{
+  "paths": [
+    {
+      "_path": "Library/usr/bin/msys-asn1-8.dll",
+      "path_type": "hardlink",
+      "sha256": "63d06af4839650d8d362071c5194a663ab557b5acba4a1927d6051e613f9a7a4",
+      "size_in_bytes": 501814
+    },
+    {
+      "_path": "Library/usr/bin/msys-com_err-1.dll",
+      "path_type": "hardlink",
+      "sha256": "ee3c055b927e7bd2e462d8fa1a67a641c9e5d416eac7d8f48958f4d15e05fd59",
+      "size_in_bytes": 9629
+    },
+    {
+      "_path": "Library/usr/bin/msys-gssapi-3.dll",
+      "path_type": "hardlink",
+      "sha256": "1fa7520bc214e5462b0090ba8b06e9b397840f894800f7af0f79fe9c1e97bf69",
+      "size_in_bytes": 215452
+    },
+    {
+      "_path": "Library/usr/bin/msys-hdb-9.dll",
+      "path_type": "hardlink",
+      "sha256": "99dcdee0afed916b1474b74904488cd331bcf3b285a6e90c18666119e296f386",
+      "size_in_bytes": 101753
+    },
+    {
+      "_path": "Library/usr/bin/msys-heimbase-1.dll",
+      "path_type": "hardlink",
+      "sha256": "08a81bc0edc0a15ccae32956bb2a540a2389a09a786c10993ad78c5584e0aee7",
+      "size_in_bytes": 14771
+    },
+    {
+      "_path": "Library/usr/bin/msys-heimntlm-0.dll",
+      "path_type": "hardlink",
+      "sha256": "9ec08afd087829b72dd2c050fcbe943887deb7cc795eb9c208903ca4f1bca83d",
+      "size_in_bytes": 25205
+    },
+    {
+      "_path": "Library/usr/bin/msys-hx509-5.dll",
+      "path_type": "hardlink",
+      "sha256": "4899ae0f4c1b2eaf880b29ec352a9057f779c4b29b140c766b7541803c7ec2b4",
+      "size_in_bytes": 270121
+    },
+    {
+      "_path": "Library/usr/bin/msys-kadm5clnt-7.dll",
+      "path_type": "hardlink",
+      "sha256": "e2e806566304eecb2a83754e97f8daf22d7b403dc30503bab2af429635573192",
+      "size_in_bytes": 37339
+    },
+    {
+      "_path": "Library/usr/bin/msys-kadm5srv-8.dll",
+      "path_type": "hardlink",
+      "sha256": "87a1a83ad509a9354eb0367849984f95653945b7101527c2da8ba2b2583f69ff",
+      "size_in_bytes": 54398
+    },
+    {
+      "_path": "Library/usr/bin/msys-kafs-0.dll",
+      "path_type": "hardlink",
+      "sha256": "a61d7780bfde02eae9601ddfc5b00113fb2d6f20bdafa7c3c477f41dc8a1d104",
+      "size_in_bytes": 26137
+    },
+    {
+      "_path": "Library/usr/bin/msys-kdc-2.dll",
+      "path_type": "hardlink",
+      "sha256": "4f2c7aa311d927a04e77169c71daca37a7ef880a6aa15685fb1a02f4c0c68508",
+      "size_in_bytes": 137794
+    },
+    {
+      "_path": "Library/usr/bin/msys-krb5-26.dll",
+      "path_type": "hardlink",
+      "sha256": "00a68e9dfffd4d65e1ec7d6d617c240afa17738fdd719292269631da5a08aaeb",
+      "size_in_bytes": 419361
+    },
+    {
+      "_path": "Library/usr/bin/msys-otp-0.dll",
+      "path_type": "hardlink",
+      "sha256": "27a05652a2f92f003f822aae3d3f0accf3043a8bb3baf308f0e488e32dd5cc40",
+      "size_in_bytes": 86209
+    },
+    {
+      "_path": "Library/usr/bin/msys-roken-18.dll",
+      "path_type": "hardlink",
+      "sha256": "ab0c62273f85798a32632a52096a7a12e63a6caccf638db579b7fa77092a7f32",
+      "size_in_bytes": 62377
+    },
+    {
+      "_path": "Library/usr/bin/msys-sl-0.dll",
+      "path_type": "hardlink",
+      "sha256": "1a906831fa89c92946c073c1ec9dd1fe64bc1b60a58565545973ddeaf21d3806",
+      "size_in_bytes": 13425
+    },
+    {
+      "_path": "Library/usr/bin/msys-wind-0.dll",
+      "path_type": "hardlink",
+      "sha256": "afaf88ed19df10387000a88ac4b648e4bdefc324e04b1dec6e6fbddcdf47807c",
+      "size_in_bytes": 164502
+    }
+  ],
+  "paths_version": 1
+}

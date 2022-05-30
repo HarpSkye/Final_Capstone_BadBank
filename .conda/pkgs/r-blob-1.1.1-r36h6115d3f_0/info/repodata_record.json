@@ -1,0 +1,25 @@
+{
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-prettyunits",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-blob-1.1.1-r36h6115d3f_0.tar.bz2",
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "md5": "5ec41c284a3e9ca40f171e1f01211b96",
+  "name": "r-blob",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "size": 40898,
+  "subdir": "noarch",
+  "timestamp": 1557987711130,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/noarch/r-blob-1.1.1-r36h6115d3f_0.tar.bz2",
+  "version": "1.1.1"
+}

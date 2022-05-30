@@ -1,0 +1,19 @@
+{
+  "arch": null,
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-htmltools >=0.3",
+    "r-jsonlite >=0.9.16",
+    "r-yaml"
+  ],
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "name": "r-htmlwidgets",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1557988925036,
+  "version": "1.3"
+}

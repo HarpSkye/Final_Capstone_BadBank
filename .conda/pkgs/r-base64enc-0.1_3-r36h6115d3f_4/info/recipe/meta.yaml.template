@@ -1,0 +1,87 @@
+{% set version = '0.1-3' %}
+
+{% set posix = 'm2-' if win else '' %}
+{% set native = 'm2w64-' if win else '' %}
+
+package:
+  name: r-base64enc
+  version: {{ version|replace("-", "_") }}
+
+source:
+  url:
+    - {{ cran_mirror }}/src/contrib/base64enc_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/base64enc/base64enc_{{ version }}.tar.gz
+  sha256: 6d856d8a364bcdc499a0bf38bfd283b7c743d08f0b288174fba7dbf0a04b688d
+
+build:
+  merge_build_host: True  # [win]
+  # If this is a new build for the same version, increment the build number.
+  number: 4
+
+  # This is required to make R link correctly on Linux.
+  rpaths:
+    - lib/R/lib/
+    - lib/
+
+requirements:
+  build:
+    - {{ compiler('c') }}        # [not win]
+    - {{native}}toolchain        # [win]
+    - {{posix}}filesystem        # [win]
+    - {{posix}}make
+    - {{posix}}sed               # [win]
+    - {{posix}}coreutils         # [win]
+    - {{posix}}zip               # [win]
+
+  host:
+    - r-base
+
+  run:
+    - r-base
+    - {{native}}gcc-libs         # [win]
+
+test:
+  commands:
+    # You can put additional test commands to be run here.
+    - $R -e "library('base64enc')"           # [not win]
+    - "\"%R%\" -e \"library('base64enc')\""  # [win]
+
+  # You can also put a file called run_test.py, run_test.sh, or run_test.bat
+  # in the recipe that will be run at test time.
+
+  # requires:
+    # Put any additional test requirements here.
+
+about:
+  home: http://www.rforge.net/base64enc
+  license: GPL-2 | GPL-3
+  summary: This package provides tools for handling base64 encoding. It is more flexible than
+    the orphaned base64 package.
+  license_family: GPL3
+
+extra:
+  recipe-maintainers:
+    - johanneskoester
+    - bgruening
+    - mingwandroid
+
+# The original CRAN metadata for this package was:
+
+# Package: base64enc
+# Version: 0.1-3
+# Title: Tools for base64 encoding
+# Author: Simon Urbanek <Simon.Urbanek@r-project.org>
+# Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>
+# Depends: R (>= 2.9.0)
+# Enhances: png
+# Description: This package provides tools for handling base64 encoding. It is more flexible than the orphaned base64 package.
+# License: GPL-2 | GPL-3
+# URL: http://www.rforge.net/base64enc
+# NeedsCompilation: yes
+# Packaged: 2015-02-04 20:31:00 UTC; svnuser
+# Repository: CRAN
+# Date/Publication: 2015-07-28 08:03:37
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

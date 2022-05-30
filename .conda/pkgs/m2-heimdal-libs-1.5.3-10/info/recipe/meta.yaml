@@ -1,0 +1,45 @@
+# This file created by conda-build 0+unknown
+# meta.yaml template originally from:
+# C:\Users\ray\conda\conda-recipes\msys2\m2-heimdal-libs, last modified Mon Dec 19 01:03:46 2016
+# ------------------------------------------------
+
+package:
+    name: m2-heimdal-libs
+    version: 1.5.3
+source:
+    md5: 0866de42d65e7cdda778fd03a17f2d3a
+    url: http://msys2-sources.continuum.io/msys2-sources/msys/sources/heimdal-libs-1.5.3-9.src.tar.gz
+build:
+    number: '10'
+    string: '10'
+requirements:
+    build: []
+    run:
+        - msys2-conda-epoch >=20160418
+        - m2-libdb
+        - m2-libcrypt
+        - m2-libedit
+        - m2-libsqlite
+        - m2-libopenssl
+about:
+    home: https://www.h5l.org/
+    license: GPL, custom
+    summary: Implementation of Kerberos V5 libraries
+extra:
+    msys2-binaries:
+        win-32:
+            md5: a49d302e3977e95e03ecf7c20f95cffc
+            mv-dsts:
+                - Library/
+            mv-srcs:
+                - '*'
+            srcpkg: msys/heimdal-libs
+            url: http://msys2-sources.continuum.io/msys2-sources/msys/i686/heimdal-libs-1.5.3-9-i686.pkg.tar.xz
+        win-64:
+            md5: 91bd789a65fe4262be671fa22bf97a68
+            mv-dsts:
+                - Library/
+            mv-srcs:
+                - '*'
+            srcpkg: msys/heimdal-libs
+            url: http://msys2-sources.continuum.io/msys2-sources/msys/x86_64/heimdal-libs-1.5.3-9-x86_64.pkg.tar.xz

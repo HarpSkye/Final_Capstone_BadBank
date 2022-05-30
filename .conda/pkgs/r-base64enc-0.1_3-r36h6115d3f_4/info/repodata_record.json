@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "r36h6115d3f_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-base64enc-0.1_3-r36h6115d3f_4.tar.bz2",
+  "license": "GPL-2 | GPL-3",
+  "license_family": "GPL3",
+  "md5": "78c1eafac32d3275a355b0a19dd67c06",
+  "name": "r-base64enc",
+  "platform": "win32",
+  "size": 39744,
+  "subdir": "win-64",
+  "timestamp": 1557935065265,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-base64enc-0.1_3-r36h6115d3f_4.tar.bz2",
+  "version": "0.1_3"
+}

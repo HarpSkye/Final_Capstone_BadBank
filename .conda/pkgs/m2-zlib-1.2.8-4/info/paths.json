@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "Library/usr/bin/msys-z.dll",
+      "path_type": "hardlink",
+      "sha256": "c40c5c9705f4e3dfd946b9b454cfc1c2fd11dc3ace6dcc28c9bb56ccd77613a2",
+      "size_in_bytes": 80966
+    },
+    {
+      "_path": "Library/usr/share/licenses/zlib/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "869d0cb85a534e384f4b3d5b7e9089d09f09de7f8ba7f518a18dff612c71a9d2",
+      "size_in_bytes": 1215
+    },
+    {
+      "_path": "Library/usr/share/man/man3/zlib.3.gz",
+      "path_type": "hardlink",
+      "sha256": "25ff2e29c51ed774398a921df26b8920ae9f406a38f91936773163f606bfe3c5",
+      "size_in_bytes": 1977
+    }
+  ],
+  "paths_version": 1
+}

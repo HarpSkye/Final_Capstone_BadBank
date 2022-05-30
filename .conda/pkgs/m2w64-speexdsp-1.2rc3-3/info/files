@@ -1,0 +1,12 @@
+Library/mingw-w64/lib/pkgconfig/speexdsp.pc
+Library/mingw-w64/lib/libspeexdsp.a
+Library/mingw-w64/include/speex/speexdsp_config_types.h
+Library/mingw-w64/lib/libspeexdsp.dll.a
+Library/mingw-w64/include/speex/speex_resampler.h
+Library/mingw-w64/include/speex/speex_echo.h
+Library/mingw-w64/bin/libspeexdsp-1.dll
+Library/mingw-w64/share/licenses/speexdsp/LICENSE
+Library/mingw-w64/include/speex/speexdsp_types.h
+Library/mingw-w64/include/speex/speex_preprocess.h
+Library/mingw-w64/include/speex/speex_jitter.h
+Library/mingw-w64/share/doc/speexdsp/manual.pdf

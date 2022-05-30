@@ -1,0 +1,43 @@
+# This file created by conda-build 0+unknown
+# meta.yaml template originally from:
+# C:\Users\ray\conda\conda-recipes\msys2\m2-openssl, last modified Mon Dec 19 01:03:46 2016
+# ------------------------------------------------
+
+package:
+    name: m2-openssl
+    version: 1.0.2.g
+source:
+    md5: 502c8853c85a04451c1ea2283868b600
+    url: http://msys2-sources.continuum.io/msys2-sources/msys/sources/openssl-1.0.2.g-1.src.tar.gz
+build:
+    number: '2'
+    string: '2'
+requirements:
+    build: []
+    run:
+        - msys2-conda-epoch >=20160418
+        - m2-libopenssl
+        - m2-zlib
+about:
+    home: https://www.openssl.org
+    license: GPL, custom:BSD
+    summary: The Open Source toolkit for Secure Sockets Layer and Transport Layer
+        Security
+extra:
+    msys2-binaries:
+        win-32:
+            md5: 737f7b0335571846fa7bdcf1566328e6
+            mv-dsts:
+                - Library/
+            mv-srcs:
+                - '*'
+            srcpkg: msys/openssl
+            url: http://msys2-sources.continuum.io/msys2-sources/msys/i686/openssl-1.0.2.g-1-i686.pkg.tar.xz
+        win-64:
+            md5: f21d4da1fa35140029905b664e7bca7f
+            mv-dsts:
+                - Library/
+            mv-srcs:
+                - '*'
+            srcpkg: msys/openssl
+            url: http://msys2-sources.continuum.io/msys2-sources/msys/x86_64/openssl-1.0.2.g-1-x86_64.pkg.tar.xz

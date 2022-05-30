@@ -1,0 +1,50 @@
+# This file created by conda-build 3.17.5
+# meta.yaml template originally from:
+# C:\projects\graphviz-feedstock\recipe, last modified Sun Jan 20 16:28:57 2019
+# ------------------------------------------------
+
+package:
+    name: graphviz
+    version: 2.38.0
+source:
+    md5: d028f49e047e2a25fdb7c0aa323a3945
+    url: https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.zip
+build:
+    number: '1011'
+    string: h6538335_1011
+requirements:
+    build:
+        - vs2015_win-64 14.0.25123 h17c34da_3
+    host:
+        - vc 14 0
+        - vs2015_runtime 14.0.25420 0
+    run:
+        - vc 14.*
+test:
+    commands:
+        - dot -V
+    files:
+        - sample.dot
+about:
+    description: 'Graphviz is an open source graph visualization software. Graph visualization
+
+        is a way of representing structural information as diagrams of abstract
+
+        graphs and networks.
+
+        '
+    dev_url: https://github.com/ellson/graphviz
+    doc_url: http://www.graphviz.org/Documentation.php
+    home: http://www.graphviz.org/
+    license: EPL v1.0
+    license_family: Other
+    license_file: COPYING
+    summary: Open Source graph visualization software.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - jakirkham
+        - johanneskoester
+        - ocefpaf

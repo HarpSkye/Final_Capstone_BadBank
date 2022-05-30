@@ -1,0 +1,43 @@
+# This file created by conda-build 0+unknown
+# meta.yaml template originally from:
+# C:\Users\ray\conda\conda-recipes\msys2\m2-libedit, last modified Mon Dec 19 01:03:46 2016
+# ------------------------------------------------
+
+package:
+    name: m2-libedit
+    version: '3.1'
+source:
+    md5: 1bc93e2f7dfc1191e77e1c578d840a7f
+    url: http://msys2-sources.continuum.io/msys2-sources/msys/sources/libedit-3.1-20150325.src.tar.gz
+build:
+    number: '20150326'
+    string: '20150326'
+requirements:
+    build: []
+    run:
+        - msys2-conda-epoch >=20160418
+        - m2-msys2-runtime
+        - m2-ncurses
+        - m2-bash
+about:
+    home: http://www.thrysoee.dk/editline/
+    license: GPL, BSD
+    summary: Libedit is an autotool- and libtoolized port of the NetBSD Editline library.
+extra:
+    msys2-binaries:
+        win-32:
+            md5: c3edad631870c021e1d458a5f2ce2b6f
+            mv-dsts:
+                - Library/
+            mv-srcs:
+                - '*'
+            srcpkg: msys/libedit
+            url: http://msys2-sources.continuum.io/msys2-sources/msys/i686/libedit-3.1-20150325-i686.pkg.tar.xz
+        win-64:
+            md5: 24ef02a0aa1dd88c6eebdadf3be00b20
+            mv-dsts:
+                - Library/
+            mv-srcs:
+                - '*'
+            srcpkg: msys/libedit
+            url: http://msys2-sources.continuum.io/msys2-sources/msys/x86_64/libedit-3.1-20150325-x86_64.pkg.tar.xz

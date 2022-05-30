@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Cast values into shape</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for cast {forge}"><tr><td>cast {forge}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Cast values into shape</h2>
+
+<h3>Description</h3>
+
+<p>These functions verify and attempt to coerce values into the specified types and shapes. If they
+are unsuccessful in the coercion, an error is thrown.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+cast_integer(x, n = NULL, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_scalar_integer(x, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_nullable_integer(x, n = NULL, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_nullable_scalar_integer(x, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_integer_list(x, n = NULL, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_nullable_integer_list(x, n = NULL, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_double(x, n = NULL, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_scalar_double(x, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_nullable_double(x, n = NULL, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_nullable_scalar_double(x, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_double_list(x, n = NULL, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_nullable_double_list(x, n = NULL, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_character(x, n = NULL, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_scalar_character(x, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_nullable_character(x, n = NULL, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_nullable_scalar_character(x, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_character_list(x, n = NULL, allow_na = FALSE,
+  allow_null = FALSE, id = NULL, return_id = FALSE)
+
+cast_nullable_character_list(x, n = NULL, allow_na = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_string(x, allow_na = FALSE, allow_null = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_nullable_string(x, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_string_list(x, n = NULL, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_nullable_string_list(x, n = NULL, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_logical(x, n = NULL, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_scalar_logical(x, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_nullable_logical(x, n = NULL, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_nullable_scalar_logical(x, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_logical_list(x, n = NULL, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+
+cast_nullable_logical_list(x, n = NULL, allow_na = FALSE, id = NULL,
+  return_id = FALSE)
+
+cast_choice(x, choices, allow_na = FALSE, allow_null = FALSE,
+  id = NULL, return_id = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>A vector.</p>
+</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+<p>The required length of the vector. If <code>NULL</code>, the length is not checked.</p>
+</td></tr>
+<tr valign="top"><td><code>allow_na</code></td>
+<td>
+<p>Whether to allow <code>NA</code>s in the vector.</p>
+</td></tr>
+<tr valign="top"><td><code>allow_null</code></td>
+<td>
+<p>Whether to allow <code>NULL</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>id</code></td>
+<td>
+<p>Name given to the input to aid the user in identifying the bad value.</p>
+</td></tr>
+<tr valign="top"><td><code>return_id</code></td>
+<td>
+<p>Whether to return the ID as an attribute. This should only be set to <code>TRUE</code>
+when piping the result to another forge function. Defaults to <code>FALSE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>choices</code></td>
+<td>
+<p>A character, numeric, or integer vector of allowed values.</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Cast a double vector to integer
+cast_integer(c(1, 2))
+
+# Cast a numeric to a string
+cast_string(4.5)
+
+# Cast an integer vector to a list of doubles
+cast_double_list(1:4)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>forge</em> version 0.2.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

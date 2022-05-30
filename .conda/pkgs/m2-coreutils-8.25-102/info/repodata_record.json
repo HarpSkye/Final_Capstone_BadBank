@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "102",
+  "build_number": 102,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2-gmp",
+    "m2-libiconv",
+    "m2-libintl",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "features": "",
+  "fn": "m2-coreutils-8.25-102.tar.bz2",
+  "license": "GPL, GPL3",
+  "md5": "b999c05769cbf241b564444970ac14fa",
+  "name": "m2-coreutils",
+  "platform": "win32",
+  "size": 4915967,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2-coreutils-8.25-102.tar.bz2",
+  "version": "8.25"
+}

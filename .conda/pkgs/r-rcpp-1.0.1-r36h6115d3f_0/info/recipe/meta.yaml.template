@@ -1,0 +1,108 @@
+{% set version = '1.0.1' %}
+
+{% set posix = 'm2-' if win else '' %}
+{% set native = 'm2w64-' if win else '' %}
+
+package:
+  name: r-rcpp
+  version: {{ version|replace("-", "_") }}
+
+source:
+  url:
+    - {{ cran_mirror }}/src/contrib/Rcpp_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/Rcpp/Rcpp_{{ version }}.tar.gz
+  sha256: e76de03e5db5edc760ba7372b688d3a2f34854ad2b7dcb53b31556a46dafb904
+
+  patches:
+    - 0001-Add-CXX1XSTD-to-PKG_CPPFLAGS.patch
+    - 0002-macOS-When-target-lt-10.9-libstdc-supports-only-some.patch
+
+build:
+  merge_build_host: True  # [win]
+  # If this is a new build for the same version, increment the build number.
+  number: 0
+
+  # This is required to make R link correctly on Linux.
+  rpaths:
+    - lib/R/lib/
+    - lib/
+
+# Suggests: RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten (>= 0.1.2)
+requirements:
+  build:
+    - {{ compiler('c') }}        # [not win]
+    - {{ compiler('cxx') }}      # [not win]
+    - {{native}}toolchain        # [win]
+    - {{posix}}filesystem        # [win]
+    - {{posix}}make
+    - {{posix}}sed               # [win]
+    - {{posix}}coreutils         # [win]
+    - {{posix}}zip               # [win]
+    - {{posix}}git 
+    - {{posix}}patch
+  host:
+    - r-base
+
+  run:
+    - r-base
+    - {{native}}gcc-libs         # [win]
+
+test:
+  commands:
+    # You can put additional test commands to be run here.
+    - $R -e "library('Rcpp')"           # [not win]
+    - "\"%R%\" -e \"library('Rcpp')\""  # [win]
+
+  # You can also put a file called run_test.py, run_test.sh, or run_test.bat
+  # in the recipe that will be run at test time.
+
+  # requires:
+    # Put any additional test requirements here.
+
+about:
+  home: http://www.rcpp.org, http://dirk.eddelbuettel.com/code/rcpp.html, https://github.com/RcppCore/Rcpp
+  license: GPL (>= 2)
+  summary: The 'Rcpp' package provides R functions as well as C++ classes which offer a seamless
+    integration of R and C++. Many R data types and objects can be mapped back and forth
+    to C++ equivalents which facilitates both writing of new code as well as easier
+    integration of third-party libraries. Documentation about 'Rcpp' is provided by
+    several vignettes included in this package, via the 'Rcpp Gallery' site at <http://gallery.rcpp.org>,
+    the paper by Eddelbuettel and Francois (2011, <doi:10.18637/jss.v040.i08>), the
+    book by Eddelbuettel (2013, <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel
+    and Balamuta (2018, <doi:10.1080/00031305.2017.1375990>); see 'citation("Rcpp")'
+    for details.
+  license_family: GPL3
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+
+extra:
+  recipe-maintainers:
+    - johanneskoester
+    - bgruening
+    - mingwandroid
+
+# The original CRAN metadata for this package was:
+
+# Package: Rcpp
+# Title: Seamless R and C++ Integration
+# Version: 1.0.1
+# Date: 2019-03-16
+# Author: Dirk Eddelbuettel, Romain Francois, JJ Allaire, Kevin Ushey, Qiang Kou, Nathan Russell, Douglas Bates and John Chambers
+# Maintainer: Dirk Eddelbuettel <edd@debian.org>
+# Description: The 'Rcpp' package provides R functions as well as C++ classes which offer a seamless integration of R and C++. Many R data types and objects can be mapped back and forth to C++ equivalents which facilitates both writing of new code as well as easier integration of third-party libraries. Documentation about 'Rcpp' is provided by several vignettes included in this package, via the 'Rcpp Gallery' site at <http://gallery.rcpp.org>, the paper by Eddelbuettel and Francois (2011, <doi:10.18637/jss.v040.i08>), the book by Eddelbuettel (2013, <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel and Balamuta (2018, <doi:10.1080/00031305.2017.1375990>); see 'citation("Rcpp")' for details.
+# Depends: R (>= 3.0.0)
+# Imports: methods, utils
+# Suggests: RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten (>= 0.1.2)
+# VignetteBuilder: knitr
+# URL: http://www.rcpp.org, http://dirk.eddelbuettel.com/code/rcpp.html, https://github.com/RcppCore/Rcpp
+# License: GPL (>= 2)
+# BugReports: https://github.com/RcppCore/Rcpp/issues
+# MailingList: Please send questions and comments regarding Rcpp to rcpp-devel@lists.r-forge.r-project.org
+# RoxygenNote: 6.0.1
+# NeedsCompilation: yes
+# Packaged: 2019-03-16 15:29:08.470813 UTC; edd
+# Repository: CRAN
+# Date/Publication: 2019-03-17 07:15:10 UTC
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

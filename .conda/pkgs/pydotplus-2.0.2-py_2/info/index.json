@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "py_2",
+  "build_number": 2,
+  "depends": [
+    "graphviz",
+    "pyparsing >=2.0.1",
+    "python"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pydotplus",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1545052433457,
+  "version": "2.0.2"
+}

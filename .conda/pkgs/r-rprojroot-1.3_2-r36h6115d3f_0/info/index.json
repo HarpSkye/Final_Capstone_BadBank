@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "depends": [
+    "r-backports",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "name": "r-rprojroot",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1557955353049,
+  "version": "1.3_2"
+}

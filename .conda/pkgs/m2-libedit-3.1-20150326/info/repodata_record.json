@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "20150326",
+  "build_number": 20150326,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2-bash",
+    "m2-msys2-runtime",
+    "m2-ncurses",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "features": "",
+  "fn": "m2-libedit-3.1-20150326.tar.bz2",
+  "license": "GPL, BSD",
+  "md5": "685223e679e25e9ebd7a45303477d061",
+  "name": "m2-libedit",
+  "platform": "win32",
+  "size": 102840,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2-libedit-3.1-20150326.tar.bz2",
+  "version": "3.1"
+}

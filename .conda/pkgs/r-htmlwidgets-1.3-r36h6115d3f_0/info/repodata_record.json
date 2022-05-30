@@ -1,0 +1,27 @@
+{
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-htmltools >=0.3",
+    "r-jsonlite >=0.9.16",
+    "r-yaml",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-htmlwidgets-1.3-r36h6115d3f_0.tar.bz2",
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "md5": "54037b1f40e6266133fc0b90af319a0c",
+  "name": "r-htmlwidgets",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "size": 694239,
+  "subdir": "noarch",
+  "timestamp": 1557988925036,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/noarch/r-htmlwidgets-1.3-r36h6115d3f_0.tar.bz2",
+  "version": "1.3"
+}

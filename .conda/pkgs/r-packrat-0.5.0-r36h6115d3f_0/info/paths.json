@@ -1,0 +1,305 @@
+{
+  "paths": [
+    {
+      "_path": "lib/R/library/packrat/DESCRIPTION",
+      "path_type": "hardlink",
+      "sha256": "5b735cf86214b69b59f51783d888fb5b77b0e774a7b29f6541a885ad02e3de76",
+      "size_in_bytes": 814
+    },
+    {
+      "_path": "lib/R/library/packrat/INDEX",
+      "path_type": "hardlink",
+      "sha256": "28626c055b504566d07c8c8270222d31e5a5f8034b2eb7f077a44e94bd73c902",
+      "size_in_bytes": 1453
+    },
+    {
+      "_path": "lib/R/library/packrat/MD5",
+      "path_type": "hardlink",
+      "sha256": "80b8a26e8bc9751437f1d45b89f0a60199e7ce7b76eb05b70f4bb123909b16ad",
+      "size_in_bytes": 2652
+    },
+    {
+      "_path": "lib/R/library/packrat/Meta/Rd.rds",
+      "path_type": "hardlink",
+      "sha256": "2143b336512bfb681cd76ba761263a59d6d152ce716ebb600338ce592bde3d65",
+      "size_in_bytes": 1268
+    },
+    {
+      "_path": "lib/R/library/packrat/Meta/features.rds",
+      "path_type": "hardlink",
+      "sha256": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+      "size_in_bytes": 122
+    },
+    {
+      "_path": "lib/R/library/packrat/Meta/hsearch.rds",
+      "path_type": "hardlink",
+      "sha256": "ada0da6930dbd7d0b86b68497e05a2e8d261e7c30250b70a1d0497d5c9b6eb95",
+      "size_in_bytes": 1288
+    },
+    {
+      "_path": "lib/R/library/packrat/Meta/links.rds",
+      "path_type": "hardlink",
+      "sha256": "2dc5f215a455dabe8a70634b4a7385c57f1f6eb6128fced13d3ebaec6444c2d0",
+      "size_in_bytes": 624
+    },
+    {
+      "_path": "lib/R/library/packrat/Meta/nsInfo.rds",
+      "path_type": "hardlink",
+      "sha256": "ee190633938cec5a35b18b46298e18e7d26719e1f7f92b3049cf38765816905d",
+      "size_in_bytes": 481
+    },
+    {
+      "_path": "lib/R/library/packrat/Meta/package.rds",
+      "path_type": "hardlink",
+      "sha256": "ff3f2e8c64d5df491b750dc0cdbccfa788bad37ca3cda8933e412ef2ac1f3753",
+      "size_in_bytes": 937
+    },
+    {
+      "_path": "lib/R/library/packrat/NAMESPACE",
+      "path_type": "hardlink",
+      "sha256": "c34d8652f492de5fdabfb87cc2ad6179b8712906b47b7df250e7da111d4f720f",
+      "size_in_bytes": 820
+    },
+    {
+      "_path": "lib/R/library/packrat/R/packrat",
+      "path_type": "hardlink",
+      "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+      "size_in_bytes": 1056
+    },
+    {
+      "_path": "lib/R/library/packrat/R/packrat.rdb",
+      "path_type": "hardlink",
+      "sha256": "23a2700ca030f9b3fadd66931ff22b3cabc384fd07165dd474dc2c5f528d2a63",
+      "size_in_bytes": 373288
+    },
+    {
+      "_path": "lib/R/library/packrat/R/packrat.rdx",
+      "path_type": "hardlink",
+      "sha256": "ae6fbb95bccf125fa3306d4a14b131e2bb86f6484759e36509538a0edb01dc2a",
+      "size_in_bytes": 5870
+    },
+    {
+      "_path": "lib/R/library/packrat/help/AnIndex",
+      "path_type": "hardlink",
+      "sha256": "784cd59c8d1332f73abf4984a959fa1ef2df15733e6fa45fdbc6580b0d9aa357",
+      "size_in_bytes": 1338
+    },
+    {
+      "_path": "lib/R/library/packrat/help/aliases.rds",
+      "path_type": "hardlink",
+      "sha256": "082e487f33ce5773b934a2aceebc86ed3f97781d5325bb66c52101882af7b3be",
+      "size_in_bytes": 504
+    },
+    {
+      "_path": "lib/R/library/packrat/help/packrat.rdb",
+      "path_type": "hardlink",
+      "sha256": "51a6c2ca94af9bab4e483e6505c93e47c5e155bd3343c210c1f237bb254778d5",
+      "size_in_bytes": 62295
+    },
+    {
+      "_path": "lib/R/library/packrat/help/packrat.rdx",
+      "path_type": "hardlink",
+      "sha256": "ae71d306b53267d150b69b3448af21f1b43ff57c8c7d1f48577beff59d568301",
+      "size_in_bytes": 756
+    },
+    {
+      "_path": "lib/R/library/packrat/help/paths.rds",
+      "path_type": "hardlink",
+      "sha256": "658072a9e4c69f84bdc056bd06f76941983fa98128461e54684a66bf83f9dcf3",
+      "size_in_bytes": 399
+    },
+    {
+      "_path": "lib/R/library/packrat/html/00Index.html",
+      "path_type": "hardlink",
+      "sha256": "d5eaa0466b8f8955d524c4149cde472361d6e68c9f70101e0fc6d0deac78071f",
+      "size_in_bytes": 6661
+    },
+    {
+      "_path": "lib/R/library/packrat/html/R.css",
+      "path_type": "hardlink",
+      "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+      "size_in_bytes": 1335
+    },
+    {
+      "_path": "lib/R/library/packrat/html/appDependencies.html",
+      "path_type": "hardlink",
+      "sha256": "8dc8945f2bb3b2a89abeb1ede90c262bbe123812ce7070651e9aa76cacfd77c7",
+      "size_in_bytes": 2443
+    },
+    {
+      "_path": "lib/R/library/packrat/html/bitbucket_pwd.html",
+      "path_type": "hardlink",
+      "sha256": "9b3f2e05371f586cad7ed0a13e9c4793b07ff194cc623bc7699ac2b379d791ab",
+      "size_in_bytes": 866
+    },
+    {
+      "_path": "lib/R/library/packrat/html/bitbucket_user.html",
+      "path_type": "hardlink",
+      "sha256": "7603840efefcac989bdbf253a22856da75ad482114c4adb3fdb0d92e7be9a232",
+      "size_in_bytes": 859
+    },
+    {
+      "_path": "lib/R/library/packrat/html/bundle.html",
+      "path_type": "hardlink",
+      "sha256": "405b28769251188b81d9d90ef7888fcc034d9c2c1098a8ff3fdc9034d8c30400",
+      "size_in_bytes": 3124
+    },
+    {
+      "_path": "lib/R/library/packrat/html/clean.html",
+      "path_type": "hardlink",
+      "sha256": "3b76c313281f6e046240ea1f6ddd50a34407c5abbdf94b7cc747ee06881e1da0",
+      "size_in_bytes": 2079
+    },
+    {
+      "_path": "lib/R/library/packrat/html/disable.html",
+      "path_type": "hardlink",
+      "sha256": "f2cdbce52be820dbbed7998c0da66a81570ae442c6425de5c5aa056aaf76b989",
+      "size_in_bytes": 1886
+    },
+    {
+      "_path": "lib/R/library/packrat/html/init.html",
+      "path_type": "hardlink",
+      "sha256": "7540f8a698516c3c2a52860f81300a8dbdcec79dcb3a4d979e299731c5295eac",
+      "size_in_bytes": 4712
+    },
+    {
+      "_path": "lib/R/library/packrat/html/install.html",
+      "path_type": "hardlink",
+      "sha256": "d7ae0f9324d042a4d96531d3c3d2b48b9db9c3817adeaadc5820c059f187015e",
+      "size_in_bytes": 3989
+    },
+    {
+      "_path": "lib/R/library/packrat/html/install_local.html",
+      "path_type": "hardlink",
+      "sha256": "95b8c01171b6e1c2d35cb2a9116c04648094724817097c6b766d93fc462c4d66",
+      "size_in_bytes": 1595
+    },
+    {
+      "_path": "lib/R/library/packrat/html/lockfile-metadata.html",
+      "path_type": "hardlink",
+      "sha256": "8b20561f60dff5148f971cb8078a7765f8c53c254727ae356b894ed488a1c9c5",
+      "size_in_bytes": 3373
+    },
+    {
+      "_path": "lib/R/library/packrat/html/packify.html",
+      "path_type": "hardlink",
+      "sha256": "b8b7c05a95af606e7cfbd40db1ce0e00c625294ddfdeebdd9b61fe28bda44b6b",
+      "size_in_bytes": 1948
+    },
+    {
+      "_path": "lib/R/library/packrat/html/packrat-external.html",
+      "path_type": "hardlink",
+      "sha256": "97d8c9f509a86e07c9eff726ca8f4bd8c40bbf3e3cad2f2f344d01a1ad986823",
+      "size_in_bytes": 2480
+    },
+    {
+      "_path": "lib/R/library/packrat/html/packrat-mode.html",
+      "path_type": "hardlink",
+      "sha256": "98601494099c979c3996d0b26fcdee95221a5a17df2658b4b050beb965904572",
+      "size_in_bytes": 2250
+    },
+    {
+      "_path": "lib/R/library/packrat/html/packrat-options.html",
+      "path_type": "hardlink",
+      "sha256": "8059952cbe93479e37d67d4407b1cb8d0d7d3b08c842f510e15e85c27d0294b7",
+      "size_in_bytes": 6425
+    },
+    {
+      "_path": "lib/R/library/packrat/html/packrat-resources.html",
+      "path_type": "hardlink",
+      "sha256": "4ec970eaaeed20617f94a580e7f17821a0cac3ac607771e6649f5a0b8d6bff77",
+      "size_in_bytes": 3947
+    },
+    {
+      "_path": "lib/R/library/packrat/html/packrat.html",
+      "path_type": "hardlink",
+      "sha256": "d43b900b41e34987853e24bc36e54fc45a2d0292ce870104a2ebdd259e36ed2e",
+      "size_in_bytes": 4098
+    },
+    {
+      "_path": "lib/R/library/packrat/html/repos_create.html",
+      "path_type": "hardlink",
+      "sha256": "46bbe7e590da378f467929beace2740e41c91f5ca9c4c1e34e3313f05a704c59",
+      "size_in_bytes": 1490
+    },
+    {
+      "_path": "lib/R/library/packrat/html/repos_upload.html",
+      "path_type": "hardlink",
+      "sha256": "1f92d61733081bef10b2ddaa68ae52d9b152bd32e9fcfbffb3e53db8a1ded486",
+      "size_in_bytes": 1594
+    },
+    {
+      "_path": "lib/R/library/packrat/html/repository-management.html",
+      "path_type": "hardlink",
+      "sha256": "fbbca68fee728770ec20884f7d1bb4d2633660ea6ca10bf65e5f52ac09b1ce0b",
+      "size_in_bytes": 1872
+    },
+    {
+      "_path": "lib/R/library/packrat/html/restore.html",
+      "path_type": "hardlink",
+      "sha256": "c078f23471778d79803aad8fd1e32b82ac0e7d87da157f1622c67ea90a8bf715",
+      "size_in_bytes": 4796
+    },
+    {
+      "_path": "lib/R/library/packrat/html/search_path.html",
+      "path_type": "hardlink",
+      "sha256": "2a9e9628cd3977f6ecd954b86a75c0f28d3a1c0d8456f20d262dacfe1a7056a8",
+      "size_in_bytes": 871
+    },
+    {
+      "_path": "lib/R/library/packrat/html/snapshot.html",
+      "path_type": "hardlink",
+      "sha256": "fd0432b2c3ccc2685000694e5cb2e4118eadb29a5e116da9020936710a310676",
+      "size_in_bytes": 4264
+    },
+    {
+      "_path": "lib/R/library/packrat/html/snapshotImpl.html",
+      "path_type": "hardlink",
+      "sha256": "2a697e1e7a77bbfafcf6a2625a421c03cbf8055fac776f7ec53ec187d8b997a1",
+      "size_in_bytes": 4175
+    },
+    {
+      "_path": "lib/R/library/packrat/html/status.html",
+      "path_type": "hardlink",
+      "sha256": "23cf68e22ac1f533a78bf7c05bbede76ed21f4903cefc867f9900c6c08ba7d3a",
+      "size_in_bytes": 3097
+    },
+    {
+      "_path": "lib/R/library/packrat/html/unbundle.html",
+      "path_type": "hardlink",
+      "sha256": "543031747a61cd8642efa87d1de02e3f8228ad6349cd0ddcb51ff9db17d52c7b",
+      "size_in_bytes": 1520
+    },
+    {
+      "_path": "lib/R/library/packrat/html/unused_packages.html",
+      "path_type": "hardlink",
+      "sha256": "2caf59c4d8eb0ead354119350d8957d357dbed9316f58cd714f3d19a9819e341",
+      "size_in_bytes": 1204
+    },
+    {
+      "_path": "lib/R/library/packrat/resources/init-rprofile.R",
+      "path_type": "hardlink",
+      "sha256": "778cad646ecbf574121d4105e3155b3408bc6b010609ed636f0ef1965ae496fd",
+      "size_in_bytes": 115
+    },
+    {
+      "_path": "lib/R/library/packrat/resources/init.R",
+      "path_type": "hardlink",
+      "sha256": "bc539dcb3c0d1186c5432fb4d7918a41dada1ca1987683c0586a549ec4b1f1a7",
+      "size_in_bytes": 8406
+    },
+    {
+      "_path": "lib/R/library/packrat/resources/mac_r_userlib.sh",
+      "path_type": "hardlink",
+      "sha256": "d3dd4cc470840f213f5e14eb2959b75865e8e92eca93e06d4702a85a0f14a0dc",
+      "size_in_bytes": 2921
+    },
+    {
+      "_path": "lib/R/library/packrat/rstudio/rstudio-protocol",
+      "path_type": "hardlink",
+      "sha256": "be2f27e98ccfb4629c7bd740488ade00fb5238d8641611416dcf250298089c14",
+      "size_in_bytes": 11
+    }
+  ],
+  "paths_version": 1
+}

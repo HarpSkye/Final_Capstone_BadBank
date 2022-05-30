@@ -1,0 +1,25 @@
+{
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/noarch",
+  "constrains": [],
+  "depends": [
+    "r-backports",
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-rprojroot-1.3_2-r36h6115d3f_0.tar.bz2",
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "md5": "1198f95f6f9172f47f5e8f85c60eced2",
+  "name": "r-rprojroot",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "size": 99961,
+  "subdir": "noarch",
+  "timestamp": 1557955353049,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/noarch/r-rprojroot-1.3_2-r36h6115d3f_0.tar.bz2",
+  "version": "1.3_2"
+}

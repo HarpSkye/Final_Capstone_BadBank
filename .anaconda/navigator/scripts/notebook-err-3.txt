@@ -1,0 +1,20 @@
+[I 07:50:05.231 NotebookApp] JupyterLab extension loaded from C:\ProgramData\Anaconda3\lib\site-packages\jupyterlab
+[I 07:50:05.231 NotebookApp] JupyterLab application directory is C:\ProgramData\Anaconda3\share\jupyter\lab
+[I 07:50:05.232 NotebookApp] Serving notebooks from local directory: C:\Users\Skye
+[I 07:50:05.232 NotebookApp] The Jupyter Notebook is running at:
+[I 07:50:05.232 NotebookApp] http://localhost:8888/?token=8854c8b0d2fb5fab5c4288d9b9424484290b87157bd1bb70
+[I 07:50:05.232 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 07:50:05.288 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/Skye/AppData/Roaming/jupyter/runtime/nbserver-7792-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=8854c8b0d2fb5fab5c4288d9b9424484290b87157bd1bb70
+[W 07:55:02.219 NotebookApp] Notebook Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/04_03/prediction.ipynb is not trusted
+[I 07:55:02.438 NotebookApp] Kernel started: 1673891a-ed00-4632-8051-b4118f48c35e
+[I 07:55:03.683 NotebookApp] Adapting to protocol v5.1 for kernel 1673891a-ed00-4632-8051-b4118f48c35e
+[I 07:57:02.353 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/04_03/prediction.ipynb
+[I 08:39:29.076 NotebookApp] Starting buffering for 1673891a-ed00-4632-8051-b4118f48c35e:b77d2951f8f0401c8ff653613062f1fe
+[I 17:21:35.296 NotebookApp] Adapting to protocol v5.1 for kernel 1673891a-ed00-4632-8051-b4118f48c35e
+[I 17:21:35.301 NotebookApp] Restoring connection for 1673891a-ed00-4632-8051-b4118f48c35e:b77d2951f8f0401c8ff653613062f1fe
+[I 17:24:51.296 NotebookApp] Starting buffering for 1673891a-ed00-4632-8051-b4118f48c35e:b77d2951f8f0401c8ff653613062f1fe

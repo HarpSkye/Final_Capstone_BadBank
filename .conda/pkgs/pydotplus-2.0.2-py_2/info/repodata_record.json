@@ -1,0 +1,25 @@
+{
+  "build": "py_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "graphviz",
+    "pyparsing >=2.0.1",
+    "python"
+  ],
+  "features": "",
+  "fn": "pydotplus-2.0.2-py_2.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "fab1face1195dc1dd283b8159abd0199",
+  "name": "pydotplus",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "size": 23602,
+  "subdir": "noarch",
+  "timestamp": 1545052433457,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pydotplus-2.0.2-py_2.tar.bz2",
+  "version": "2.0.2"
+}

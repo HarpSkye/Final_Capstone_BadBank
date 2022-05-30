@@ -1,0 +1,42 @@
+# This file created by conda-build 0+unknown
+# meta.yaml template originally from:
+# C:\Users\ray\conda\conda-recipes\msys2\m2-zlib, last modified Mon Dec 19 01:03:46 2016
+# ------------------------------------------------
+
+package:
+    name: m2-zlib
+    version: 1.2.8
+source:
+    md5: cbfb6bebedba86d1581b45719a7dad09
+    url: http://msys2-sources.continuum.io/msys2-sources/msys/sources/zlib-1.2.8-3.src.tar.gz
+build:
+    number: '4'
+    string: '4'
+requirements:
+    build: []
+    run:
+        - msys2-conda-epoch >=20160418
+        - m2-gcc-libs
+about:
+    home: http://www.zlib.net/
+    license: GPL, custom
+    summary: Compression library implementing the deflate compression method found
+        in gzip and PKZIP
+extra:
+    msys2-binaries:
+        win-32:
+            md5: c507ca9cdf460859a9d737d7a8ef1bc5
+            mv-dsts:
+                - Library/
+            mv-srcs:
+                - '*'
+            srcpkg: msys/zlib
+            url: http://msys2-sources.continuum.io/msys2-sources/msys/i686/zlib-1.2.8-3-i686.pkg.tar.xz
+        win-64:
+            md5: 5805b3b38f8047c886a52289a6dbf98c
+            mv-dsts:
+                - Library/
+            mv-srcs:
+                - '*'
+            srcpkg: msys/zlib
+            url: http://msys2-sources.continuum.io/msys2-sources/msys/x86_64/zlib-1.2.8-3-x86_64.pkg.tar.xz

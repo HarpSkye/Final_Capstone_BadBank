@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "3",
+  "build_number": 3,
+  "depends": [
+    "m2w64-gcc-libs",
+    "m2w64-libogg",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "license": "custom:Xiph, LGPL, GPL, FDL",
+  "name": "m2w64-flac",
+  "platform": "win",
+  "subdir": "win-64",
+  "version": "1.3.1"
+}

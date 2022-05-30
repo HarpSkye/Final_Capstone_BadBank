@@ -1,0 +1,179 @@
+{
+  "paths": [
+    {
+      "_path": "lib/R/library/rappdirs/DESCRIPTION",
+      "path_type": "hardlink",
+      "sha256": "bf807898a57e0681721e52d8a833e135437eba9d257c0a34fc451168a7c42420",
+      "size_in_bytes": 1927
+    },
+    {
+      "_path": "lib/R/library/rappdirs/INDEX",
+      "path_type": "hardlink",
+      "sha256": "1b038fe5a798191459ef3933d93b050120a97486007dc0995107337e39141874",
+      "size_in_bytes": 607
+    },
+    {
+      "_path": "lib/R/library/rappdirs/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "c71f2978aff959d8620ffe7dd5de4a41ac6050ba00a1927d6a3e6c3bdfda994b",
+      "size_in_bytes": 90
+    },
+    {
+      "_path": "lib/R/library/rappdirs/MD5",
+      "path_type": "hardlink",
+      "sha256": "8d7e423127b82346991a314f0883b17c75b5ed3f86923bd371034384faa03212",
+      "size_in_bytes": 1433
+    },
+    {
+      "_path": "lib/R/library/rappdirs/Meta/Rd.rds",
+      "path_type": "hardlink",
+      "sha256": "171d64c9de8eb4f89f988a047674c7331450a60506eedb17205ed81de35c9273",
+      "size_in_bytes": 494
+    },
+    {
+      "_path": "lib/R/library/rappdirs/Meta/features.rds",
+      "path_type": "hardlink",
+      "sha256": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+      "size_in_bytes": 122
+    },
+    {
+      "_path": "lib/R/library/rappdirs/Meta/hsearch.rds",
+      "path_type": "hardlink",
+      "sha256": "cc2b16a5ca4cd0daf243b5d2a6f4b0374d346f23234ed0fe38c94f719880dcc8",
+      "size_in_bytes": 508
+    },
+    {
+      "_path": "lib/R/library/rappdirs/Meta/links.rds",
+      "path_type": "hardlink",
+      "sha256": "c031ad4cef1d7417261e8303b6e1b8e875c2009cd2e53ed48f5ab5736397d369",
+      "size_in_bytes": 216
+    },
+    {
+      "_path": "lib/R/library/rappdirs/Meta/nsInfo.rds",
+      "path_type": "hardlink",
+      "sha256": "e344b8d43659d2eabb531d67fa8201cc4e1941fdda97b5925e3fdf20e78bfe45",
+      "size_in_bytes": 272
+    },
+    {
+      "_path": "lib/R/library/rappdirs/Meta/package.rds",
+      "path_type": "hardlink",
+      "sha256": "ef378dac2f01254ecdbe72d2998a63f6a83c8da4776000c4cdec07b1c74d85af",
+      "size_in_bytes": 1296
+    },
+    {
+      "_path": "lib/R/library/rappdirs/NAMESPACE",
+      "path_type": "hardlink",
+      "sha256": "8bb9e6d0989822f45f5a66f10f97863396dd325b33a22465daf0bcf0fa861464",
+      "size_in_bytes": 234
+    },
+    {
+      "_path": "lib/R/library/rappdirs/NEWS.md",
+      "path_type": "hardlink",
+      "sha256": "1b0268b021fbe41c327c7e1ea7e0898c72da2a41e53f1196bc1d5fce87fd42bd",
+      "size_in_bytes": 438
+    },
+    {
+      "_path": "lib/R/library/rappdirs/R/rappdirs",
+      "path_type": "hardlink",
+      "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+      "size_in_bytes": 1056
+    },
+    {
+      "_path": "lib/R/library/rappdirs/R/rappdirs.rdb",
+      "path_type": "hardlink",
+      "sha256": "58c95e92aa8fb2b8cfc085d41f3a9169d4f2102c377afd1eb841c0ec31bff320",
+      "size_in_bytes": 41540
+    },
+    {
+      "_path": "lib/R/library/rappdirs/R/rappdirs.rdx",
+      "path_type": "hardlink",
+      "sha256": "3173d6d57437ccd4946675fd1ab08f4901d62b902c9cde23caa07e5c8557007b",
+      "size_in_bytes": 777
+    },
+    {
+      "_path": "lib/R/library/rappdirs/help/AnIndex",
+      "path_type": "hardlink",
+      "sha256": "f4beaf96c9306f95ff578aaa666fd41f1bd6d96f3cab704c7efafc6368c283bb",
+      "size_in_bytes": 257
+    },
+    {
+      "_path": "lib/R/library/rappdirs/help/aliases.rds",
+      "path_type": "hardlink",
+      "sha256": "4e45a89127b3ce73c6d40824aa8c530ed3154b509b25a66001da7b5ff8fc36a8",
+      "size_in_bytes": 167
+    },
+    {
+      "_path": "lib/R/library/rappdirs/help/paths.rds",
+      "path_type": "hardlink",
+      "sha256": "5341449ff2364c882437910bcc65206168880280aa7b1146acf5c67d57d4d035",
+      "size_in_bytes": 204
+    },
+    {
+      "_path": "lib/R/library/rappdirs/help/rappdirs.rdb",
+      "path_type": "hardlink",
+      "sha256": "4160b3a88092414356a485355f7d5e9a307dd1e109d1e48d126ae9f61dcfd20d",
+      "size_in_bytes": 21552
+    },
+    {
+      "_path": "lib/R/library/rappdirs/help/rappdirs.rdx",
+      "path_type": "hardlink",
+      "sha256": "e063932c06312b37474c408304df362d1d7a2d361084520ea5748e9f1e223370",
+      "size_in_bytes": 290
+    },
+    {
+      "_path": "lib/R/library/rappdirs/html/00Index.html",
+      "path_type": "hardlink",
+      "sha256": "eadc9c2115b0f91932003515753670f566b6635b0c2b77d811c8b346c98ff716",
+      "size_in_bytes": 2438
+    },
+    {
+      "_path": "lib/R/library/rappdirs/html/R.css",
+      "path_type": "hardlink",
+      "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+      "size_in_bytes": 1335
+    },
+    {
+      "_path": "lib/R/library/rappdirs/html/app_dir.html",
+      "path_type": "hardlink",
+      "sha256": "cefa9097091d6747821564659e07dd1014bea052c627c4b53d4911cf3db9e4e6",
+      "size_in_bytes": 3009
+    },
+    {
+      "_path": "lib/R/library/rappdirs/html/rappdirs-package.html",
+      "path_type": "hardlink",
+      "sha256": "47ee7ebd126c3c0d2b2caf9fab343056445c9f36e97b106bde1b4af51f56709b",
+      "size_in_bytes": 3294
+    },
+    {
+      "_path": "lib/R/library/rappdirs/html/site_data_dir.html",
+      "path_type": "hardlink",
+      "sha256": "8913c44a55a9d96d3bb6c255c3e7475ea86242f0623707835c8fbe7082d2375a",
+      "size_in_bytes": 4519
+    },
+    {
+      "_path": "lib/R/library/rappdirs/html/user_cache_dir.html",
+      "path_type": "hardlink",
+      "sha256": "8a12644612e61ef7e73d923b236e0a39ef1dab8ffb466227561ce9662055565a",
+      "size_in_bytes": 4821
+    },
+    {
+      "_path": "lib/R/library/rappdirs/html/user_data_dir.html",
+      "path_type": "hardlink",
+      "sha256": "1aaac8eb8d8633a0687cabfa2f9eaa3efe105cf5038bc6cb1f174e329e0cef37",
+      "size_in_bytes": 6319
+    },
+    {
+      "_path": "lib/R/library/rappdirs/html/user_log_dir.html",
+      "path_type": "hardlink",
+      "sha256": "c1544bea002140dceb435e0f2503b87a04c905506b309bdb9483f401f33f1879",
+      "size_in_bytes": 4112
+    },
+    {
+      "_path": "lib/R/library/rappdirs/libs/x64/rappdirs.dll",
+      "path_type": "hardlink",
+      "sha256": "715716d8e743c564164d12b90b144513707d14e2bdf18e09a0f173af1493ad8b",
+      "size_in_bytes": 16384
+    }
+  ],
+  "paths_version": 1
+}

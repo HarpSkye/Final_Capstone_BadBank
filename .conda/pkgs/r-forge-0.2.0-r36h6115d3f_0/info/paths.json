@@ -1,0 +1,149 @@
+{
+  "paths": [
+    {
+      "_path": "lib/R/library/forge/DESCRIPTION",
+      "path_type": "hardlink",
+      "sha256": "3d71de83bfcffc1d87a47a4e809cf137c8754efe5e26ea6969ce8e768f8e3ff3",
+      "size_in_bytes": 840
+    },
+    {
+      "_path": "lib/R/library/forge/INDEX",
+      "path_type": "hardlink",
+      "sha256": "1358c1c53e9701bb32a809a159c3fecea5b54c0bc598a275f14c7f1ccc3ac213",
+      "size_in_bytes": 102
+    },
+    {
+      "_path": "lib/R/library/forge/MD5",
+      "path_type": "hardlink",
+      "sha256": "4ee8aa95e816a9ca6ae1d500e38e8ae572e8d96358674965c132548791275de3",
+      "size_in_bytes": 1120
+    },
+    {
+      "_path": "lib/R/library/forge/Meta/Rd.rds",
+      "path_type": "hardlink",
+      "sha256": "ede86fef1c0816f4dbde5dc6e7721ae4a6d41259b7491015056591103849a88f",
+      "size_in_bytes": 493
+    },
+    {
+      "_path": "lib/R/library/forge/Meta/features.rds",
+      "path_type": "hardlink",
+      "sha256": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+      "size_in_bytes": 122
+    },
+    {
+      "_path": "lib/R/library/forge/Meta/hsearch.rds",
+      "path_type": "hardlink",
+      "sha256": "66790538e7b8926becf90524de61bff46dab19320a73b452350864e8141529da",
+      "size_in_bytes": 610
+    },
+    {
+      "_path": "lib/R/library/forge/Meta/links.rds",
+      "path_type": "hardlink",
+      "sha256": "8dd4cf3a144be2a08c30a907305034c3f5133df61bf288d312a93729351af09c",
+      "size_in_bytes": 342
+    },
+    {
+      "_path": "lib/R/library/forge/Meta/nsInfo.rds",
+      "path_type": "hardlink",
+      "sha256": "656bc3d24078e102d0e498ab308323344d2af265002b5f8922e52a580006de92",
+      "size_in_bytes": 422
+    },
+    {
+      "_path": "lib/R/library/forge/Meta/package.rds",
+      "path_type": "hardlink",
+      "sha256": "fa77b10f3c067cc942a6d8692bfe40b48053b0a7cb55b59b518d00e8be97caf9",
+      "size_in_bytes": 956
+    },
+    {
+      "_path": "lib/R/library/forge/NAMESPACE",
+      "path_type": "hardlink",
+      "sha256": "23a183dde725eb3e299e2a9dc817a7ee279127ffffea212af60e4a918baba601",
+      "size_in_bytes": 1022
+    },
+    {
+      "_path": "lib/R/library/forge/NEWS.md",
+      "path_type": "hardlink",
+      "sha256": "2c053bc2f8454c18d8ec3b43ddaa6aec8c2b6e3e12d01065edbeaecff4361bde",
+      "size_in_bytes": 484
+    },
+    {
+      "_path": "lib/R/library/forge/R/forge",
+      "path_type": "hardlink",
+      "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+      "size_in_bytes": 1056
+    },
+    {
+      "_path": "lib/R/library/forge/R/forge.rdb",
+      "path_type": "hardlink",
+      "sha256": "ac8a6910534ca9aeb96e70440121264551fa330107509f6347986b0b08ca3eaa",
+      "size_in_bytes": 26495
+    },
+    {
+      "_path": "lib/R/library/forge/R/forge.rdx",
+      "path_type": "hardlink",
+      "sha256": "6bab1c2b6013163e9e54179985901e380b6d7e7b24a7e0daea69bbf7de1648d7",
+      "size_in_bytes": 754
+    },
+    {
+      "_path": "lib/R/library/forge/help/AnIndex",
+      "path_type": "hardlink",
+      "sha256": "fd6600d82cc145ce45f84eb4c798f5f2acae72f15448bf97de2aaaaef277854d",
+      "size_in_bytes": 889
+    },
+    {
+      "_path": "lib/R/library/forge/help/aliases.rds",
+      "path_type": "hardlink",
+      "sha256": "551ff7e73c252feecff1c2dacd7c3ac68580364ff177ed11bb675d3f6e20918c",
+      "size_in_bytes": 313
+    },
+    {
+      "_path": "lib/R/library/forge/help/forge.rdb",
+      "path_type": "hardlink",
+      "sha256": "97b3fc1ebcec486876a6848cdfd02ae4cadab119c85cf7014a8c048101923c51",
+      "size_in_bytes": 6528
+    },
+    {
+      "_path": "lib/R/library/forge/help/forge.rdx",
+      "path_type": "hardlink",
+      "sha256": "c23457f0d3f256ae2d5d6e00082cdc7bf9d5e8c212dd8477d91b63d4cedcc8d0",
+      "size_in_bytes": 207
+    },
+    {
+      "_path": "lib/R/library/forge/help/paths.rds",
+      "path_type": "hardlink",
+      "sha256": "1f36ff19a54b67628fa8227415fd708bb051ced4e80ee849aee4b6005857e69f",
+      "size_in_bytes": 161
+    },
+    {
+      "_path": "lib/R/library/forge/html/00Index.html",
+      "path_type": "hardlink",
+      "sha256": "9fe2c6db74792d2b345397511338f3836f09a1aad2e8ba585a923cbbd1861d42",
+      "size_in_bytes": 5102
+    },
+    {
+      "_path": "lib/R/library/forge/html/R.css",
+      "path_type": "hardlink",
+      "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+      "size_in_bytes": 1335
+    },
+    {
+      "_path": "lib/R/library/forge/html/cast.html",
+      "path_type": "hardlink",
+      "sha256": "0a9d1c61adad4ea0d51a60a443b2545dd2fe8a1aec31da7af35df8268fda12a1",
+      "size_in_bytes": 4906
+    },
+    {
+      "_path": "lib/R/library/forge/html/certify.html",
+      "path_type": "hardlink",
+      "sha256": "316d2311f158671da115ec6fb1b863775d12160d81e625f5115cf954abce2b65",
+      "size_in_bytes": 2223
+    },
+    {
+      "_path": "lib/R/library/forge/html/pipe.html",
+      "path_type": "hardlink",
+      "sha256": "13956f17a802f184dad584d84cdf596f9f61b4d092aefdbea447a87cfdc92ffe",
+      "size_in_bytes": 828
+    }
+  ],
+  "paths_version": 1
+}

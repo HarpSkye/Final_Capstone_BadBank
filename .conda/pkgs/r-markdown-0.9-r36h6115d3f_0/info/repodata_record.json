@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.6,<3.7.0a0",
+    "r-mime >=0.3",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-markdown-0.9-r36h6115d3f_0.tar.bz2",
+  "license": "GPL-2",
+  "license_family": "GPL2",
+  "md5": "458caa2056c006210c749d0ef3532894",
+  "name": "r-markdown",
+  "platform": "win32",
+  "size": 150560,
+  "subdir": "win-64",
+  "timestamp": 1557957164675,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-markdown-0.9-r36h6115d3f_0.tar.bz2",
+  "version": "0.9"
+}

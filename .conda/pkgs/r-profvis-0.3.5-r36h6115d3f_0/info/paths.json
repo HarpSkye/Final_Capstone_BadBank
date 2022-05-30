@@ -1,0 +1,245 @@
+{
+  "paths": [
+    {
+      "_path": "lib/R/library/profvis/DESCRIPTION",
+      "path_type": "hardlink",
+      "sha256": "74f3e3b5619af1ae72455070c926fdbc27ae012d27c18a20d7d18a224f5ba28e",
+      "size_in_bytes": 1716
+    },
+    {
+      "_path": "lib/R/library/profvis/INDEX",
+      "path_type": "hardlink",
+      "sha256": "00babdfb888dbac5d46684c8938b5a8de646a18c041b90ddd70f98fa772e1222",
+      "size_in_bytes": 395
+    },
+    {
+      "_path": "lib/R/library/profvis/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "61671d183742efadb7422486b8b1385f81da3e3f4906ca27c204ce78699c50a2",
+      "size_in_bytes": 4696
+    },
+    {
+      "_path": "lib/R/library/profvis/MD5",
+      "path_type": "hardlink",
+      "sha256": "980ca0740dced92a4c1e8cec12a781a792d9235fe4d253bd0e55c2cb4bea5690",
+      "size_in_bytes": 2161
+    },
+    {
+      "_path": "lib/R/library/profvis/Meta/Rd.rds",
+      "path_type": "hardlink",
+      "sha256": "def47261f3b1ff28280bcf00ee0afe689827d9e158198e6815302f19a85d34e5",
+      "size_in_bytes": 415
+    },
+    {
+      "_path": "lib/R/library/profvis/Meta/features.rds",
+      "path_type": "hardlink",
+      "sha256": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+      "size_in_bytes": 122
+    },
+    {
+      "_path": "lib/R/library/profvis/Meta/hsearch.rds",
+      "path_type": "hardlink",
+      "sha256": "cbdf8259d9412d9b25cea1e861fad637f16aec2285cfbec8295866ed7b00aad6",
+      "size_in_bytes": 416
+    },
+    {
+      "_path": "lib/R/library/profvis/Meta/links.rds",
+      "path_type": "hardlink",
+      "sha256": "7f65bd0ffe6d40d6dbb60fe65321a148f1e27879bec1e502bbe4cedeb3889d7c",
+      "size_in_bytes": 179
+    },
+    {
+      "_path": "lib/R/library/profvis/Meta/nsInfo.rds",
+      "path_type": "hardlink",
+      "sha256": "4f1e0a1425bd0f9def54c082ba7731b56e772e8249f2cc127e5baca527fee17f",
+      "size_in_bytes": 352
+    },
+    {
+      "_path": "lib/R/library/profvis/Meta/package.rds",
+      "path_type": "hardlink",
+      "sha256": "78f320e10bcd1f261dd344a00ce36f42798260a52b4c538ae785e389f34cf878",
+      "size_in_bytes": 1199
+    },
+    {
+      "_path": "lib/R/library/profvis/NAMESPACE",
+      "path_type": "hardlink",
+      "sha256": "0defeb9d48c070c7dd560a0c158dc286d515a7929e069a320d1ac853bee2eb8c",
+      "size_in_bytes": 260
+    },
+    {
+      "_path": "lib/R/library/profvis/NEWS.md",
+      "path_type": "hardlink",
+      "sha256": "dba277213e5effe08a773b68fb793d6c04fb725e20f067542f352fcedb31d20b",
+      "size_in_bytes": 1663
+    },
+    {
+      "_path": "lib/R/library/profvis/R/profvis",
+      "path_type": "hardlink",
+      "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+      "size_in_bytes": 1056
+    },
+    {
+      "_path": "lib/R/library/profvis/R/profvis.rdb",
+      "path_type": "hardlink",
+      "sha256": "8201956c9489a74e957572398140a695deacb7eade45961b2af663296be8a8ee",
+      "size_in_bytes": 22732
+    },
+    {
+      "_path": "lib/R/library/profvis/R/profvis.rdx",
+      "path_type": "hardlink",
+      "sha256": "b576b33b54cb1f9eb02fb692e379d86bb08a0e97d063b3fafb35de96e0aa3c95",
+      "size_in_bytes": 529
+    },
+    {
+      "_path": "lib/R/library/profvis/help/AnIndex",
+      "path_type": "hardlink",
+      "sha256": "ff0992ee53a44d537c1c499f7e9cc39244b074c0db4dbe75e6621b594f2d890c",
+      "size_in_bytes": 142
+    },
+    {
+      "_path": "lib/R/library/profvis/help/aliases.rds",
+      "path_type": "hardlink",
+      "sha256": "2ed62e8459fee8b7903b7720200e187dfdd01c1b149067d199578f2009f19b2b",
+      "size_in_bytes": 130
+    },
+    {
+      "_path": "lib/R/library/profvis/help/paths.rds",
+      "path_type": "hardlink",
+      "sha256": "7577d301f47dc5be16e7c4f4feca13ace4a97fa52a819b2586e8a26fe5422fb6",
+      "size_in_bytes": 197
+    },
+    {
+      "_path": "lib/R/library/profvis/help/profvis.rdb",
+      "path_type": "hardlink",
+      "sha256": "79f6469f11181169b07309a5a12c3c954a95180343ff647613db6b9e988da5d5",
+      "size_in_bytes": 10187
+    },
+    {
+      "_path": "lib/R/library/profvis/help/profvis.rdx",
+      "path_type": "hardlink",
+      "sha256": "e2a7918a642b90aabd05858aa6e1d4a3cc53813d9099166cf6f405934733920c",
+      "size_in_bytes": 287
+    },
+    {
+      "_path": "lib/R/library/profvis/html/00Index.html",
+      "path_type": "hardlink",
+      "sha256": "ed56f908be449482d2fe51f6e8907e6ce0e8053e94db1c39e724b2437ac6feb2",
+      "size_in_bytes": 1757
+    },
+    {
+      "_path": "lib/R/library/profvis/html/R.css",
+      "path_type": "hardlink",
+      "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+      "size_in_bytes": 1335
+    },
+    {
+      "_path": "lib/R/library/profvis/html/parse_rprof.html",
+      "path_type": "hardlink",
+      "sha256": "cf43df8b13fd2169009a19c0a4e94a069bb4c8b5145521c2cdb0796284359497",
+      "size_in_bytes": 1414
+    },
+    {
+      "_path": "lib/R/library/profvis/html/pause.html",
+      "path_type": "hardlink",
+      "sha256": "13a0bef9ce5258e7459f71db75f2430c6e242925cb676113acafc2cfd8995118",
+      "size_in_bytes": 1310
+    },
+    {
+      "_path": "lib/R/library/profvis/html/print.profvis.html",
+      "path_type": "hardlink",
+      "sha256": "9dab06d06b9d0fd70eba097160cab0e4d08cbb7e95366112e47fb0b4c597123b",
+      "size_in_bytes": 1569
+    },
+    {
+      "_path": "lib/R/library/profvis/html/profvis.html",
+      "path_type": "hardlink",
+      "sha256": "b1965bbdafa174b20626d35bc12bc22c9f5e0c28bc61fc5f7032d6b80ad110dd",
+      "size_in_bytes": 4206
+    },
+    {
+      "_path": "lib/R/library/profvis/html/profvisOutput.html",
+      "path_type": "hardlink",
+      "sha256": "7492d16d2de9676077415ee503a14088f900dd892ae5044fda49b26c57ac7e9c",
+      "size_in_bytes": 1267
+    },
+    {
+      "_path": "lib/R/library/profvis/html/renderProfvis.html",
+      "path_type": "hardlink",
+      "sha256": "d19d475bef6c40fa7e7703bb9237ed8e390a72da4e9658f943307d05f04dd491",
+      "size_in_bytes": 1385
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/lib/d3/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "cfbbc38bc63359f41eef41f92314754d6652fd1a17d016de344926d5de34b7d5",
+      "size_in_bytes": 1429
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/lib/d3/d3.min.js",
+      "path_type": "hardlink",
+      "sha256": "a643b74067e8e03f8fc5eec9494c79b87aa6e33ccd953902b31d23e0463c69f6",
+      "size_in_bytes": 151143
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/lib/highlight/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "bdb8f9bba7125549cb01d68d90050ac9604f5aa43f6fd63e070f6d7d095f8d74",
+      "size_in_bytes": 1498
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/lib/highlight/default.css",
+      "path_type": "hardlink",
+      "sha256": "4485bea37bfe6bf26fdb2116f0b70888491e4a9916a9aa6762d99f623d30ae31",
+      "size_in_bytes": 299
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/lib/highlight/highlight.js",
+      "path_type": "hardlink",
+      "sha256": "66c7af988ea9d6a448cecac16b206d04ca852d68fedaf53f662456f5eb00bf54",
+      "size_in_bytes": 10427
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/lib/highlight/textmate.css",
+      "path_type": "hardlink",
+      "sha256": "5ec4a11489e1c0f322774a38c5e7e1186b1cf3a40f3fc07fe8d7ee0a228ee0f6",
+      "size_in_bytes": 320
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/lib/jquery/jquery.min.js",
+      "path_type": "hardlink",
+      "sha256": "668b046d12db350ccba6728890476b3efee53b2f42dbb84743e5e9f1ae0cc404",
+      "size_in_bytes": 97163
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/lib/profvis/profvis.css",
+      "path_type": "hardlink",
+      "sha256": "f6bddeb0d144103210507bdd34ed415edb3e99aad46a0e8e23d975d34f2a339b",
+      "size_in_bytes": 20273
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/lib/profvis/profvis.js",
+      "path_type": "hardlink",
+      "sha256": "50a9c6b6cc2e544676fea2564ff4d07fba1fc84b82d48bf8361e136c26519262",
+      "size_in_bytes": 89377
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/profvis.js",
+      "path_type": "hardlink",
+      "sha256": "0a862461fc55fae644b2549f853d6959e9dc60d918569c2e8e99c2bf14bdf07d",
+      "size_in_bytes": 324
+    },
+    {
+      "_path": "lib/R/library/profvis/htmlwidgets/profvis.yaml",
+      "path_type": "hardlink",
+      "sha256": "0ccebb95b84eda7795a25d7759f802909ba69c9ea9a0d2a791724dbcc3b8e6da",
+      "size_in_bytes": 464
+    },
+    {
+      "_path": "lib/R/library/profvis/libs/x64/profvis.dll",
+      "path_type": "hardlink",
+      "sha256": "eaf4896cd5770e384492dc69f41836d4d1c48bae83453904729438020e7a76fc",
+      "size_in_bytes": 16384
+    }
+  ],
+  "paths_version": 1
+}

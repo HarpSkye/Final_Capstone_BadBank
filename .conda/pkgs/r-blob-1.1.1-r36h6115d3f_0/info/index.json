@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-prettyunits"
+  ],
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "name": "r-blob",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1557987711130,
+  "version": "1.1.1"
+}

@@ -1,0 +1,26 @@
+[I 07:24:06.289 NotebookApp] The port 8888 is already in use, trying another port.
+[I 07:24:06.289 NotebookApp] The port 8889 is already in use, trying another port.
+[I 07:24:06.418 NotebookApp] JupyterLab extension loaded from C:\ProgramData\Anaconda3\lib\site-packages\jupyterlab
+[I 07:24:06.419 NotebookApp] JupyterLab application directory is C:\ProgramData\Anaconda3\share\jupyter\lab
+[I 07:24:06.420 NotebookApp] Serving notebooks from local directory: C:\Users\Skye
+[I 07:24:06.420 NotebookApp] The Jupyter Notebook is running at:
+[I 07:24:06.420 NotebookApp] http://localhost:8890/?token=2f1cb595c8d9ce705116c98726688ef8ef92f51bcaf03ec1
+[I 07:24:06.420 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 07:24:06.469 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/Skye/AppData/Roaming/jupyter/runtime/nbserver-17656-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=2f1cb595c8d9ce705116c98726688ef8ef92f51bcaf03ec1
+[I 07:24:34.804 NotebookApp] Kernel started: 41340543-f7a6-4bdf-af37-84c61e43dc7f
+[I 07:24:35.977 NotebookApp] Adapting to protocol v5.1 for kernel 41340543-f7a6-4bdf-af37-84c61e43dc7f
+[I 07:26:35.258 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/04_03/prediction.ipynb
+[I 07:28:34.754 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/04_03/prediction.ipynb
+[I 07:30:34.758 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/04_03/prediction.ipynb
+[I 07:32:34.771 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/04_03/prediction.ipynb
+[I 07:34:34.756 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/04_03/prediction.ipynb
+[I 07:36:34.754 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/04_03/prediction.ipynb
+[I 07:40:34.764 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/04_03/prediction.ipynb
+[I 07:42:34.782 NotebookApp] Saving file at /Desktop/Training/Data Analysis/Data_Science_of_Marketing/Exercise_Files/04_03/prediction.ipynb
+[I 07:49:52.148 NotebookApp] Starting buffering for 41340543-f7a6-4bdf-af37-84c61e43dc7f:83d08cbc50fb4c0a8e36bf440d097d6b
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.

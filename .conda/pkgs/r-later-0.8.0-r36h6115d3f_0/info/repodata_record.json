@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.6,<3.7.0a0",
+    "r-bh",
+    "r-rcpp >=0.12.9",
+    "r-rlang",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-later-0.8.0-r36h6115d3f_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "md5": "4ce085df37d12599b9fab7402f8d4226",
+  "name": "r-later",
+  "platform": "win32",
+  "size": 101004,
+  "subdir": "win-64",
+  "timestamp": 1557956894487,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-later-0.8.0-r36h6115d3f_0.tar.bz2",
+  "version": "0.8.0"
+}

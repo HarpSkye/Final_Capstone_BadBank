@@ -1,0 +1,10 @@
+[user]
+	name = HarpSkye
+	email = skye.chen.yunxi@gmail.com
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[core]
+	editor = \"C:\\Users\\Skye\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd\" --wait

@@ -1,0 +1,102 @@
+{% set version = '0.9-7' %}
+
+{% set posix = 'm2-' if win else '' %}
+{% set native = 'm2w64-' if win else '' %}
+
+package:
+  name: r-bit64
+  version: {{ version|replace("-", "_") }}
+
+source:
+  url:
+    - {{ cran_mirror }}/src/contrib/bit64_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/bit64/bit64_{{ version }}.tar.gz
+  sha256: 7b9aaa7f971198728c3629f9ba1a1b24d53db5c7e459498b0fdf86bbd3dff61f
+
+build:
+  merge_build_host: True  # [win]
+  # If this is a new build for the same version, increment the build number.
+  number: 0
+
+  # This is required to make R link correctly on Linux.
+  rpaths:
+    - lib/R/lib/
+    - lib/
+
+requirements:
+  build:
+    - {{ compiler('c') }}        # [not win]
+    - {{native}}toolchain        # [win]
+    - {{posix}}filesystem        # [win]
+    - {{posix}}make
+    - {{posix}}sed               # [win]
+    - {{posix}}coreutils         # [win]
+    - {{posix}}zip               # [win]
+
+  host:
+    - r-base
+    - r-bit >=1.1_12
+
+  run:
+    - r-base
+    - {{native}}gcc-libs         # [win]
+    - r-bit >=1.1_12
+
+test:
+  commands:
+    # You can put additional test commands to be run here.
+    - $R -e "library('bit64')"           # [not win]
+    - "\"%R%\" -e \"library('bit64')\""  # [win]
+
+  # You can also put a file called run_test.py, run_test.sh, or run_test.bat
+  # in the recipe that will be run at test time.
+
+  # requires:
+    # Put any additional test requirements here.
+
+about:
+  home: http://ff.r-forge.r-project.org/
+  license: GPL-2
+  summary: ' Package ''bit64'' provides serializable S3 atomic 64bit (signed) integers.  These
+    are useful for handling database keys and exact counting in +-2^63. WARNING: do
+    not use them as replacement for 32bit integers, integer64 are not supported for
+    subscripting by R-core and they have different semantics when  combined with double,
+    e.g. integer64 + double => integer64.  Class integer64 can be used in vectors, matrices,
+    arrays and data.frames.  Methods are available for coercion from and to logicals,
+    integers, doubles,  characters and factors as well as many elementwise and summary
+    functions.  Many fast algorithmic operations such as ''match'' and ''order'' support
+    inter- active data exploration and manipulation and optionally leverage caching.'
+
+  license_family: GPL2
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+
+extra:
+  recipe-maintainers:
+    - johanneskoester
+    - bgruening
+    - mingwandroid
+
+# The original CRAN metadata for this package was:
+
+# Package: bit64
+# Type: Package
+# Title: A S3 Class for Vectors of 64bit Integers
+# Version: 0.9-7
+# Date: 2017-05-07
+# Author: Jens Oehlschlagel <Jens.Oehlschlaegel@truecluster.com>
+# Maintainer: Jens Oehlschlagel <Jens.Oehlschlaegel@truecluster.com>
+# Depends: R (>= 3.0.1), bit (>= 1.1-12), utils, methods, stats
+# Description:  Package 'bit64' provides serializable S3 atomic 64bit (signed) integers.  These are useful for handling database keys and exact counting in +-2^63. WARNING: do not use them as replacement for 32bit integers, integer64 are not supported for subscripting by R-core and they have different semantics when  combined with double, e.g. integer64 + double => integer64.  Class integer64 can be used in vectors, matrices, arrays and data.frames.  Methods are available for coercion from and to logicals, integers, doubles,  characters and factors as well as many elementwise and summary functions.  Many fast algorithmic operations such as 'match' and 'order' support inter- active data exploration and manipulation and optionally leverage caching.
+# License: GPL-2
+# LazyLoad: yes
+# ByteCompile: yes
+# URL: http://ff.r-forge.r-project.org/
+# Encoding: UTF-8
+# NeedsCompilation: yes
+# Packaged: 2017-05-07 19:07:42 UTC; jo
+# Repository: CRAN
+# Date/Publication: 2017-05-08 13:21:40 UTC
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

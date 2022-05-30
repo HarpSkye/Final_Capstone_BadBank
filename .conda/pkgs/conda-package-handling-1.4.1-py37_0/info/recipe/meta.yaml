@@ -1,0 +1,59 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# C:\projects\conda-package-handling-feedstock\recipe, last modified Mon Aug  5 00:37:44 2019
+# ------------------------------------------------
+
+package:
+    name: conda-package-handling
+    version: 1.4.1
+source:
+    fn: conda-package-handling-1.4.1.tar.gz
+    sha256: 08895d292de6243166a074c20d8ff3c0be8701babc594b67836186c9ef2d9cd4
+    url: https://github.com/conda/conda-package-handling/releases/download/1.4.1/conda-package-handling-1.4.1.tar.gz
+build:
+    entry_points:
+        - cph = conda_package_handling.cli:main
+    number: '0'
+    script: C:\bld\conda-package-handling_1564965637499\_h_env\python.exe -m pip install
+        . --no-deps -vv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2019.6.16 hecc5488_0
+        - certifi 2019.6.16 py37_1
+        - openssl 1.1.1c hfa6e2cd_0
+        - pip 19.2.1 py37_0
+        - python 3.7.3 h510b542_1
+        - setuptools 41.0.1 py37_0
+        - sqlite 3.29.0 hfa6e2cd_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.15.26706 h3a45250_4
+        - wheel 0.33.4 py37_0
+        - wincertstore 0.2 py37_1002
+    run:
+        - libarchive >=3.3.3
+        - python >=3.7,<3.8.0a0
+        - python-libarchive-c
+        - six
+        - tqdm
+test:
+    commands:
+        - pytest tests
+    requires:
+        - mock
+        - pytest
+        - pytest-cov
+        - pytest-mock
+    source_files:
+        - tests
+about:
+    home: https://github.com/conda/conda-package-handling
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Create and extract conda packages of various formats
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan

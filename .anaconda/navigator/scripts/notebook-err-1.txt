@@ -1,0 +1,13 @@
+[I 07:50:07.003 NotebookApp] The port 8888 is already in use, trying another port.
+[I 07:50:07.116 NotebookApp] JupyterLab extension loaded from C:\ProgramData\Anaconda3\lib\site-packages\jupyterlab
+[I 07:50:07.116 NotebookApp] JupyterLab application directory is C:\ProgramData\Anaconda3\share\jupyter\lab
+[I 07:50:07.117 NotebookApp] Serving notebooks from local directory: C:\Users\Skye
+[I 07:50:07.117 NotebookApp] The Jupyter Notebook is running at:
+[I 07:50:07.117 NotebookApp] http://localhost:8889/?token=323c99c5e046342d150713b43352d1c2d883e5925ede6dbe
+[I 07:50:07.117 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 07:50:07.172 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/Skye/AppData/Roaming/jupyter/runtime/nbserver-16088-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=323c99c5e046342d150713b43352d1c2d883e5925ede6dbe

@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.6,<3.7.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "features": "",
+  "fn": "r-rcpp-1.0.1-r36h6115d3f_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "md5": "7a879d13788d3c370b4067dfd7f2281c",
+  "name": "r-rcpp",
+  "platform": "win32",
+  "size": 3506014,
+  "subdir": "win-64",
+  "timestamp": 1557934307765,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-rcpp-1.0.1-r36h6115d3f_0.tar.bz2",
+  "version": "1.0.1"
+}

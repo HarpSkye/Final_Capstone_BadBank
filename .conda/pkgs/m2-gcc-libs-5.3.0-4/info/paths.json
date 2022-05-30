@@ -1,0 +1,89 @@
+{
+  "paths": [
+    {
+      "_path": "Library/usr/bin/msys-atomic-1.dll",
+      "path_type": "hardlink",
+      "sha256": "7ff0bc1a87e062d19053599451daf8bc3be14d642e1f73633ef78b67f3d23b03",
+      "size_in_bytes": 89422
+    },
+    {
+      "_path": "Library/usr/bin/msys-cilkrts-5.dll",
+      "path_type": "hardlink",
+      "sha256": "458f75001359d9f62e9fd9b1e655a6a986509e25b0be84116a299529d8b582e3",
+      "size_in_bytes": 111690
+    },
+    {
+      "_path": "Library/usr/bin/msys-gcc_s-seh-1.dll",
+      "path_type": "hardlink",
+      "sha256": "5977a1477bc8ce29b6bba41da2f406e3405c016e0df84a154a43f9e605e99eba",
+      "size_in_bytes": 71469
+    },
+    {
+      "_path": "Library/usr/bin/msys-gfortran-3.dll",
+      "path_type": "hardlink",
+      "sha256": "2a38d45f1b806bb95768b7a8e8e9c8a4655ad843dc03bb85c828c27d4a71a3cd",
+      "size_in_bytes": 1178258
+    },
+    {
+      "_path": "Library/usr/bin/msys-gomp-1.dll",
+      "path_type": "hardlink",
+      "sha256": "91de600ffd259e5f6daf45f872ad3ba97c070146943628c2f1a15ee3bbbf450a",
+      "size_in_bytes": 110196
+    },
+    {
+      "_path": "Library/usr/bin/msys-gomp-plugin-host_nonshm-1.dll",
+      "path_type": "hardlink",
+      "sha256": "cb76e95d33491cdf992fe29153e957917a8b45f1c9d304d4ee55bf4b812df927",
+      "size_in_bytes": 10166
+    },
+    {
+      "_path": "Library/usr/bin/msys-quadmath-0.dll",
+      "path_type": "hardlink",
+      "sha256": "2d3ca5c9f078d6dc7629709d93f729ec6b0a6211768f3d15d4bdc682628b0ca5",
+      "size_in_bytes": 316703
+    },
+    {
+      "_path": "Library/usr/bin/msys-ssp-0.dll",
+      "path_type": "hardlink",
+      "sha256": "a7ceb00e3bfa8c961835ba7ac880a11ddad1a130d43f886af80abd4c78bbf4e3",
+      "size_in_bytes": 12969
+    },
+    {
+      "_path": "Library/usr/bin/msys-stdc++-6.dll",
+      "path_type": "hardlink",
+      "sha256": "4c62726141917af5b047270ab6757e0dd7b2354c9368374d96bf86925495eca4",
+      "size_in_bytes": 1375369
+    },
+    {
+      "_path": "Library/usr/bin/msys-vtv-0.dll",
+      "path_type": "hardlink",
+      "sha256": "bb6b24a89683b7f3d9593df98cb28387b97424562cf413e7c5be32e681fbd92e",
+      "size_in_bytes": 8376
+    },
+    {
+      "_path": "Library/usr/bin/msys-vtv_stubs-0.dll",
+      "path_type": "hardlink",
+      "sha256": "51a6572ceb18aa822b837e8d47c192990279b0d1d7be20c3946d6969b47b41fd",
+      "size_in_bytes": 8376
+    },
+    {
+      "_path": "Library/usr/share/info/libgomp.info.gz",
+      "path_type": "hardlink",
+      "sha256": "14ab489d362a1180fda44bb126fd4cbc9c75730009769950f82ee1c4cbaa8fe5",
+      "size_in_bytes": 35152
+    },
+    {
+      "_path": "Library/usr/share/info/libquadmath.info.gz",
+      "path_type": "hardlink",
+      "sha256": "b003a60401a5ca209749eeae47394d3c2aa90486deca1cd30c9c0aa5dc8954fc",
+      "size_in_bytes": 11430
+    },
+    {
+      "_path": "Library/usr/share/licenses/gcc-libs/RUNTIME.LIBRARY.EXCEPTION",
+      "path_type": "hardlink",
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+      "size_in_bytes": 3324
+    }
+  ],
+  "paths_version": 1
+}

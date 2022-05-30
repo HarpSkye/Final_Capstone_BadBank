@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "name": "r-rappdirs",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1557950215829,
+  "version": "0.3.1"
+}

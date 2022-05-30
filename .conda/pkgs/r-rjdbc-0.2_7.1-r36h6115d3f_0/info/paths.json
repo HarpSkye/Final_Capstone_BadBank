@@ -1,0 +1,185 @@
+{
+  "paths": [
+    {
+      "_path": "lib/R/library/RJDBC/DESCRIPTION",
+      "path_type": "hardlink",
+      "sha256": "a998a784443880b69873e79c956becfdefebb7697669069d0b4598c662d75859",
+      "size_in_bytes": 667
+    },
+    {
+      "_path": "lib/R/library/RJDBC/INDEX",
+      "path_type": "hardlink",
+      "sha256": "6591988183579408ba82c4f4f3229b9781f581e54cde705b875a864a110ad850",
+      "size_in_bytes": 509
+    },
+    {
+      "_path": "lib/R/library/RJDBC/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "7b9cdc5d979343ececb6d947c551e3e63c80da5c5f746487c17dcfb8da480cc7",
+      "size_in_bytes": 1517
+    },
+    {
+      "_path": "lib/R/library/RJDBC/MD5",
+      "path_type": "hardlink",
+      "sha256": "f8efe550413e5202618cb67754c57b97928b216274406f6e25ac05a6f57ac719",
+      "size_in_bytes": 1493
+    },
+    {
+      "_path": "lib/R/library/RJDBC/Meta/Rd.rds",
+      "path_type": "hardlink",
+      "sha256": "40fd1b689e838d841b28974ee86872846322c11df0525aec87082f8ff37ee369",
+      "size_in_bytes": 728
+    },
+    {
+      "_path": "lib/R/library/RJDBC/Meta/features.rds",
+      "path_type": "hardlink",
+      "sha256": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+      "size_in_bytes": 122
+    },
+    {
+      "_path": "lib/R/library/RJDBC/Meta/hsearch.rds",
+      "path_type": "hardlink",
+      "sha256": "155d0981cdaef15e7d98a2e2bd5a7b187474793655c564b121979b3093e12a94",
+      "size_in_bytes": 805
+    },
+    {
+      "_path": "lib/R/library/RJDBC/Meta/links.rds",
+      "path_type": "hardlink",
+      "sha256": "1acc894bec17d4075dba2acb9567b94a992c5d661e19df87622ade9df141f219",
+      "size_in_bytes": 517
+    },
+    {
+      "_path": "lib/R/library/RJDBC/Meta/nsInfo.rds",
+      "path_type": "hardlink",
+      "sha256": "3a1f02fa020d6c1ba2a8046fb174b309ced95c62e40247fcc5a8514725b88292",
+      "size_in_bytes": 422
+    },
+    {
+      "_path": "lib/R/library/RJDBC/Meta/package.rds",
+      "path_type": "hardlink",
+      "sha256": "81bab2f2f915ac44ec74779b21f2439712220a0a200c93be04b1d652a4d59e76",
+      "size_in_bytes": 816
+    },
+    {
+      "_path": "lib/R/library/RJDBC/NAMESPACE",
+      "path_type": "hardlink",
+      "sha256": "c25552655400fefaf213e75c725733a31e758034ca69eb961c62afc6e03e539b",
+      "size_in_bytes": 408
+    },
+    {
+      "_path": "lib/R/library/RJDBC/NEWS",
+      "path_type": "hardlink",
+      "sha256": "11f56b6b68cb607f66bedbc857a18b7ae773b6fa57ef8fd0cc7d289e9dc87567",
+      "size_in_bytes": 4167
+    },
+    {
+      "_path": "lib/R/library/RJDBC/R/RJDBC",
+      "path_type": "hardlink",
+      "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+      "size_in_bytes": 1056
+    },
+    {
+      "_path": "lib/R/library/RJDBC/R/RJDBC.rdb",
+      "path_type": "hardlink",
+      "sha256": "baf9a2322b9594cdd1a07bbc5687ae7610f9a17d30f955466b8610113241a30c",
+      "size_in_bytes": 91241
+    },
+    {
+      "_path": "lib/R/library/RJDBC/R/RJDBC.rdx",
+      "path_type": "hardlink",
+      "sha256": "3d30efa42bf09af71fae1ad531abe112f534cbc5ed7dbf4d8bbe99a36c8fb5f6",
+      "size_in_bytes": 1513
+    },
+    {
+      "_path": "lib/R/library/RJDBC/help/AnIndex",
+      "path_type": "hardlink",
+      "sha256": "85ebe003e1b7a0727e098ee4c4dfc641de371573f0f5628a84ce5848847a38a3",
+      "size_in_bytes": 2162
+    },
+    {
+      "_path": "lib/R/library/RJDBC/help/RJDBC.rdb",
+      "path_type": "hardlink",
+      "sha256": "80224f6493ce652be19d3adfd63ce9ce075df644d4f000ef78d3b1350f240c12",
+      "size_in_bytes": 18623
+    },
+    {
+      "_path": "lib/R/library/RJDBC/help/RJDBC.rdx",
+      "path_type": "hardlink",
+      "sha256": "536335f225082dff0716454d5f7a547f43c1fe88e43234d805c9c6b2a0801b9c",
+      "size_in_bytes": 320
+    },
+    {
+      "_path": "lib/R/library/RJDBC/help/aliases.rds",
+      "path_type": "hardlink",
+      "sha256": "da195225093048bd849c585f507d06fa7f7b5255a076a8737d36b6af14b5341d",
+      "size_in_bytes": 470
+    },
+    {
+      "_path": "lib/R/library/RJDBC/help/paths.rds",
+      "path_type": "hardlink",
+      "sha256": "5f5ef2b2a273bb132a8ea92acb3e918be539649bcb6848b2d0f4611bc34c685d",
+      "size_in_bytes": 207
+    },
+    {
+      "_path": "lib/R/library/RJDBC/html/00Index.html",
+      "path_type": "hardlink",
+      "sha256": "3a97f0da092ad32b8bb59eb6b83ecb27f7975e3d3ba7c9807233ff76898cbc2a",
+      "size_in_bytes": 6735
+    },
+    {
+      "_path": "lib/R/library/RJDBC/html/JDBC.html",
+      "path_type": "hardlink",
+      "sha256": "c96cf52fa317f973df1c8000a3de3b27a3f420a21755e2eee4b87986c0c9dffa",
+      "size_in_bytes": 4241
+    },
+    {
+      "_path": "lib/R/library/RJDBC/html/JDBCConnection-class.html",
+      "path_type": "hardlink",
+      "sha256": "b74dff6866ee1d3f8728585947dfba72b4e4f30e9040f9b38d715d24ec3d1823",
+      "size_in_bytes": 2005
+    },
+    {
+      "_path": "lib/R/library/RJDBC/html/JDBCConnection-methods.html",
+      "path_type": "hardlink",
+      "sha256": "902f0aa7ae04c7ec1de309aa1068bbee46f0023969bf0eeb3906f28535912927",
+      "size_in_bytes": 3750
+    },
+    {
+      "_path": "lib/R/library/RJDBC/html/JDBCDriver-class.html",
+      "path_type": "hardlink",
+      "sha256": "870e0d51ef29d67fefa2b1309d0b81a9d63668376b16499c662579ca0caf7fd6",
+      "size_in_bytes": 1924
+    },
+    {
+      "_path": "lib/R/library/RJDBC/html/JDBCDriver-methods.html",
+      "path_type": "hardlink",
+      "sha256": "d147e18648666aa6fb8e9ba318f5ffebecde67514d4e006ef02854c296ee6500",
+      "size_in_bytes": 1971
+    },
+    {
+      "_path": "lib/R/library/RJDBC/html/JDBCResult-class.html",
+      "path_type": "hardlink",
+      "sha256": "23f49d6152e16559834823eed4bcd3a1b232dfc06453408bd90a3873c7f3e1c6",
+      "size_in_bytes": 1925
+    },
+    {
+      "_path": "lib/R/library/RJDBC/html/JDBCResult-methods.html",
+      "path_type": "hardlink",
+      "sha256": "bde0af7771d3234dea3c852415340dae57e9007880afbf111a3ec2d1f951f796",
+      "size_in_bytes": 2559
+    },
+    {
+      "_path": "lib/R/library/RJDBC/html/R.css",
+      "path_type": "hardlink",
+      "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+      "size_in_bytes": 1335
+    },
+    {
+      "_path": "lib/R/library/RJDBC/java/RJDBC.jar",
+      "path_type": "hardlink",
+      "sha256": "3e3fe95c64b95524093d54d5376140f8eceb299da7731785a73a0f9d07acaf08",
+      "size_in_bytes": 3337
+    }
+  ],
+  "paths_version": 1
+}

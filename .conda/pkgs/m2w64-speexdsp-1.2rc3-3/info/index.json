@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "3",
+  "build_number": 3,
+  "depends": [
+    "m2w64-gcc-libs",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "license": "BSD",
+  "name": "m2w64-speexdsp",
+  "platform": "win",
+  "subdir": "win-64",
+  "version": "1.2rc3"
+}

@@ -1,0 +1,155 @@
+{
+  "paths": [
+    {
+      "_path": "lib/R/library/base64enc/DESCRIPTION",
+      "path_type": "hardlink",
+      "sha256": "649e83f141e08877466b59b2a214cec8d6d52d0745f5b78db5a6fdff9c5daf71",
+      "size_in_bytes": 612
+    },
+    {
+      "_path": "lib/R/library/base64enc/INDEX",
+      "path_type": "hardlink",
+      "sha256": "d6eebe8968b0b00af0ae4080b3786739032ae50a5456da8effdfd6adfcea67c8",
+      "size_in_bytes": 233
+    },
+    {
+      "_path": "lib/R/library/base64enc/MD5",
+      "path_type": "hardlink",
+      "sha256": "067bc0c7bc84dd6f7edb0cbfe710f59fc55f3798ad1546dcdd4dc4ad186197e5",
+      "size_in_bytes": 1202
+    },
+    {
+      "_path": "lib/R/library/base64enc/Meta/Rd.rds",
+      "path_type": "hardlink",
+      "sha256": "be291a13348d6d9d024ca39f978650ad1a78c016ef147004358da67a09920b03",
+      "size_in_bytes": 354
+    },
+    {
+      "_path": "lib/R/library/base64enc/Meta/features.rds",
+      "path_type": "hardlink",
+      "sha256": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+      "size_in_bytes": 122
+    },
+    {
+      "_path": "lib/R/library/base64enc/Meta/hsearch.rds",
+      "path_type": "hardlink",
+      "sha256": "fa1e4f12513fe6874296937c12e8dece130f0c7f19940da373508ff5679cf8fe",
+      "size_in_bytes": 398
+    },
+    {
+      "_path": "lib/R/library/base64enc/Meta/links.rds",
+      "path_type": "hardlink",
+      "sha256": "3456dcc365e73312f1dc7744cd696670ba8ce4db01964cebb0765c894bc55e11",
+      "size_in_bytes": 153
+    },
+    {
+      "_path": "lib/R/library/base64enc/Meta/nsInfo.rds",
+      "path_type": "hardlink",
+      "sha256": "314f3eb9eda39e9f90ca7fa97f74733e3af449f54651c05cd51b484dbfea9e12",
+      "size_in_bytes": 334
+    },
+    {
+      "_path": "lib/R/library/base64enc/Meta/package.rds",
+      "path_type": "hardlink",
+      "sha256": "4e5c6b5c4169059bad09027c6aeba15b9ece7396bc16a7e9fb7d40ab6a75ce27",
+      "size_in_bytes": 715
+    },
+    {
+      "_path": "lib/R/library/base64enc/NAMESPACE",
+      "path_type": "hardlink",
+      "sha256": "9639822048b1066b83fd9578450068b275c6c66fa5d6460b47ef89498b998cf8",
+      "size_in_bytes": 125
+    },
+    {
+      "_path": "lib/R/library/base64enc/NEWS",
+      "path_type": "hardlink",
+      "sha256": "76f7268a7bd49136414929a95553331ffdac087c34164490ff250c611d8ac97a",
+      "size_in_bytes": 514
+    },
+    {
+      "_path": "lib/R/library/base64enc/R/base64enc",
+      "path_type": "hardlink",
+      "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+      "size_in_bytes": 1056
+    },
+    {
+      "_path": "lib/R/library/base64enc/R/base64enc.rdb",
+      "path_type": "hardlink",
+      "sha256": "106b3b1863673c1fec299fba7f3010d89d0369f13e27cf7f0b7a37b58b330e15",
+      "size_in_bytes": 6841
+    },
+    {
+      "_path": "lib/R/library/base64enc/R/base64enc.rdx",
+      "path_type": "hardlink",
+      "sha256": "a88adecd974aafef0adbb555ae6c9037d72f4c653e4af9e881f684065dc64657",
+      "size_in_bytes": 314
+    },
+    {
+      "_path": "lib/R/library/base64enc/help/AnIndex",
+      "path_type": "hardlink",
+      "sha256": "b7d78347916b1a2385635f7065a71d4205ffbe7d0c1c42e77d67340ae1c3d81b",
+      "size_in_bytes": 95
+    },
+    {
+      "_path": "lib/R/library/base64enc/help/aliases.rds",
+      "path_type": "hardlink",
+      "sha256": "004127692cfcae92695bf6f5736598a965a0833ce77fb439b3e5fbf65fd0c371",
+      "size_in_bytes": 120
+    },
+    {
+      "_path": "lib/R/library/base64enc/help/base64enc.rdb",
+      "path_type": "hardlink",
+      "sha256": "8b9ff558d1cd20dd601ae2597d260ba996cca381bcb05978b26418d96140e25a",
+      "size_in_bytes": 7649
+    },
+    {
+      "_path": "lib/R/library/base64enc/help/base64enc.rdx",
+      "path_type": "hardlink",
+      "sha256": "028ad9f727ab8807a80b5463b800c40e09c56976289e73498e0e93512eb91885",
+      "size_in_bytes": 213
+    },
+    {
+      "_path": "lib/R/library/base64enc/help/paths.rds",
+      "path_type": "hardlink",
+      "sha256": "390617ce6ef951441f3bd1ccaf03e78d6da67d07ad45ec6a5283cfcc6fbad6b3",
+      "size_in_bytes": 170
+    },
+    {
+      "_path": "lib/R/library/base64enc/html/00Index.html",
+      "path_type": "hardlink",
+      "sha256": "26a7f691c14f8f76d5c1f6518b1a60fe57e65a807ef941ccb821ab0231bc24b1",
+      "size_in_bytes": 1650
+    },
+    {
+      "_path": "lib/R/library/base64enc/html/R.css",
+      "path_type": "hardlink",
+      "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+      "size_in_bytes": 1335
+    },
+    {
+      "_path": "lib/R/library/base64enc/html/base64.html",
+      "path_type": "hardlink",
+      "sha256": "ab2f170f32b2a27c2040dd39acd67b1c0df668ee26755e52c6c443775d69ee84",
+      "size_in_bytes": 3337
+    },
+    {
+      "_path": "lib/R/library/base64enc/html/checkUTF8.html",
+      "path_type": "hardlink",
+      "sha256": "98c3871fae8f3d9a813d05e7ff92451e35348386f3c233ecc70ead631cf3ab4e",
+      "size_in_bytes": 2194
+    },
+    {
+      "_path": "lib/R/library/base64enc/html/dataURI.html",
+      "path_type": "hardlink",
+      "sha256": "7be8deb2ae3f67f36d355e72c1791d0af4139eb056375777984fc9a71c1f36e6",
+      "size_in_bytes": 2496
+    },
+    {
+      "_path": "lib/R/library/base64enc/libs/x64/base64enc.dll",
+      "path_type": "hardlink",
+      "sha256": "b061f31249c3198cd4fdf99a4c40414c023999b7261891ca2e382e1dbb055141",
+      "size_in_bytes": 22016
+    }
+  ],
+  "paths_version": 1
+}

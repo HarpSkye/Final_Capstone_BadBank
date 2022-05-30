@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Ensure Conditions on a Value</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for certify {forge}"><tr><td>certify {forge}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Ensure Conditions on a Value</h2>
+
+<h3>Description</h3>
+
+<p>Checks that the input value satisfies specified conditions
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+certify(x, ..., allow_null = FALSE, id = NULL, return_id = FALSE)
+
+gt(l)
+
+gte(l)
+
+lt(u)
+
+lte(u)
+
+bounded(l = NULL, u = NULL, incl_lower = TRUE, incl_upper = TRUE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>The value to be checked.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Conditions to be checked; should be functions that return TRUE/FALSE.</p>
+</td></tr>
+<tr valign="top"><td><code>allow_null</code></td>
+<td>
+<p>Whether to allow null input.</p>
+</td></tr>
+<tr valign="top"><td><code>id</code></td>
+<td>
+<p>Name given to the input to aid the user in identifying the bad value.</p>
+</td></tr>
+<tr valign="top"><td><code>return_id</code></td>
+<td>
+<p>Whether to return the ID as an attribute. This should only be set to <code>TRUE</code>
+when piping the result to another forge function. Defaults to <code>FALSE</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>l</code></td>
+<td>
+<p>Lower bound for the inequality condition.</p>
+</td></tr>
+<tr valign="top"><td><code>u</code></td>
+<td>
+<p>Upper bound for the inequality condition.</p>
+</td></tr>
+<tr valign="top"><td><code>incl_lower</code></td>
+<td>
+<p>Whether to include the left endpoint.</p>
+</td></tr>
+<tr valign="top"><td><code>incl_upper</code></td>
+<td>
+<p>Whether to include the right endpoint.</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>forge</em> version 0.2.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

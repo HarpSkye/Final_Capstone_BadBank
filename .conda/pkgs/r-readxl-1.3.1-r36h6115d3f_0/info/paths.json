@@ -1,0 +1,293 @@
+{
+  "paths": [
+    {
+      "_path": "lib/R/library/readxl/DESCRIPTION",
+      "path_type": "hardlink",
+      "sha256": "b44e4a3dcacdc2e2ee2410e334c2b79710d7cf2b7a4cff20ba77b7e385c70ded",
+      "size_in_bytes": 3114
+    },
+    {
+      "_path": "lib/R/library/readxl/INDEX",
+      "path_type": "hardlink",
+      "sha256": "ea7ac250007c31d50e77461f4c0017adbb22cd8510c32dcff209dabfadaf3f0d",
+      "size_in_bytes": 332
+    },
+    {
+      "_path": "lib/R/library/readxl/MD5",
+      "path_type": "hardlink",
+      "sha256": "38bff4def0cd1a7d2ab56035e3a7eef3bb58c5e2388462eb3e6a2fc291f62a93",
+      "size_in_bytes": 2526
+    },
+    {
+      "_path": "lib/R/library/readxl/Meta/Rd.rds",
+      "path_type": "hardlink",
+      "sha256": "d34644ff379c39bf2b7601f8ecdae8b8402edbbcd837be288fe390b21c7ee722",
+      "size_in_bytes": 539
+    },
+    {
+      "_path": "lib/R/library/readxl/Meta/features.rds",
+      "path_type": "hardlink",
+      "sha256": "ea994aae41523332316746487fbc8be7bae2a0ce42895c9449fa3eafbadc4dae",
+      "size_in_bytes": 122
+    },
+    {
+      "_path": "lib/R/library/readxl/Meta/hsearch.rds",
+      "path_type": "hardlink",
+      "sha256": "091ef5cefdb921827d10b7255c96e016d2b979756ca7b4f0fa23cb96322c9bb5",
+      "size_in_bytes": 563
+    },
+    {
+      "_path": "lib/R/library/readxl/Meta/links.rds",
+      "path_type": "hardlink",
+      "sha256": "da3b70c732ae7a04fab6c4e5bca10f95afc918b58c30c477595ec673d179a3fe",
+      "size_in_bytes": 289
+    },
+    {
+      "_path": "lib/R/library/readxl/Meta/nsInfo.rds",
+      "path_type": "hardlink",
+      "sha256": "d9773be788b6b9d87ee4ec7b5e2ad41ab705d23253fdeaeae0f109764e85c753",
+      "size_in_bytes": 426
+    },
+    {
+      "_path": "lib/R/library/readxl/Meta/package.rds",
+      "path_type": "hardlink",
+      "sha256": "a4d8af66c862c19eeb580346f64b64b5a0d8759d2260196fe0004a0fb672aaac",
+      "size_in_bytes": 1560
+    },
+    {
+      "_path": "lib/R/library/readxl/Meta/vignette.rds",
+      "path_type": "hardlink",
+      "sha256": "4f42117b11e365dbfa69b9ca9f3f44f0fe2814c9798288b997e7efc2158df974",
+      "size_in_bytes": 252
+    },
+    {
+      "_path": "lib/R/library/readxl/NAMESPACE",
+      "path_type": "hardlink",
+      "sha256": "7e848ce38dc522b5fd11ef3bbfb46a0a437730f5d2b5d53dd29910dd7f5c460a",
+      "size_in_bytes": 516
+    },
+    {
+      "_path": "lib/R/library/readxl/NEWS.md",
+      "path_type": "hardlink",
+      "sha256": "6c2150cf958a80d819cd3c370840c0d13eef5dc7b74f8e1fed5e2eb193ebc99f",
+      "size_in_bytes": 11319
+    },
+    {
+      "_path": "lib/R/library/readxl/R/readxl",
+      "path_type": "hardlink",
+      "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+      "size_in_bytes": 1056
+    },
+    {
+      "_path": "lib/R/library/readxl/R/readxl.rdb",
+      "path_type": "hardlink",
+      "sha256": "eabbaaa21b2415cb384a31791d4b2fcf6e800d2e1fc3858cdc51fffb770f20ea",
+      "size_in_bytes": 21045
+    },
+    {
+      "_path": "lib/R/library/readxl/R/readxl.rdx",
+      "path_type": "hardlink",
+      "sha256": "5b10855b25af245e029bf6c53c00ebd7856ae0b8b8d99480f3b118dbc60bb9f8",
+      "size_in_bytes": 765
+    },
+    {
+      "_path": "lib/R/library/readxl/doc/cell-and-column-types.R",
+      "path_type": "hardlink",
+      "sha256": "939e9f71413ebc35ab1ef02aa4f0970b54fa82eb2f98c05abb275e33ac367d1b",
+      "size_in_bytes": 2892
+    },
+    {
+      "_path": "lib/R/library/readxl/doc/cell-and-column-types.Rmd",
+      "path_type": "hardlink",
+      "sha256": "811606aa94f66679030f2bb253ca45fa6ca41a871b50ff3bcf2e650d4e7244c7",
+      "size_in_bytes": 9542
+    },
+    {
+      "_path": "lib/R/library/readxl/doc/cell-and-column-types.html",
+      "path_type": "hardlink",
+      "sha256": "da29a7c0cb3025143c6f15cc91012666c5cd6f57675284bed525503fd2464fe5",
+      "size_in_bytes": 493359
+    },
+    {
+      "_path": "lib/R/library/readxl/doc/index.html",
+      "path_type": "hardlink",
+      "sha256": "41febd92e22249b97d30a4365d7ea03128ad2d5595bb922d3d7398ea5bad0192",
+      "size_in_bytes": 1923
+    },
+    {
+      "_path": "lib/R/library/readxl/doc/sheet-geometry.R",
+      "path_type": "hardlink",
+      "sha256": "cbce928a82e03b9671e09e63c9bd38c0a439a00bab2e8351d76a898b927e4eb7",
+      "size_in_bytes": 2899
+    },
+    {
+      "_path": "lib/R/library/readxl/doc/sheet-geometry.Rmd",
+      "path_type": "hardlink",
+      "sha256": "256392e4c60bdb1609a0238671ace2d1813582b89b2db74fb2fb69ca399a7202",
+      "size_in_bytes": 8614
+    },
+    {
+      "_path": "lib/R/library/readxl/doc/sheet-geometry.html",
+      "path_type": "hardlink",
+      "sha256": "fee10a84dc0363abe90c098cde6b610979a9d5897bc97e8d3f6521dcb089177e",
+      "size_in_bytes": 197634
+    },
+    {
+      "_path": "lib/R/library/readxl/extdata/clippy.xls",
+      "path_type": "hardlink",
+      "sha256": "715a998f28d8933cfd3963e8bfa97b72c41238b1df1d733e9b88443596e5e2a3",
+      "size_in_bytes": 26624
+    },
+    {
+      "_path": "lib/R/library/readxl/extdata/clippy.xlsx",
+      "path_type": "hardlink",
+      "sha256": "011041bc27095d36feab16b1d82e6cb472303c22830ff454bfcc8483f5465b8e",
+      "size_in_bytes": 9403
+    },
+    {
+      "_path": "lib/R/library/readxl/extdata/datasets.xls",
+      "path_type": "hardlink",
+      "sha256": "5857b1dc7f674549df22f9199df35d38d2e0f0c3aee529e70a0238f92df1be61",
+      "size_in_bytes": 98816
+    },
+    {
+      "_path": "lib/R/library/readxl/extdata/datasets.xlsx",
+      "path_type": "hardlink",
+      "sha256": "26547bbe8b4087518ba98279f8bda031fe12b47b8d2877f12ac76f41190c5783",
+      "size_in_bytes": 54450
+    },
+    {
+      "_path": "lib/R/library/readxl/extdata/deaths.xls",
+      "path_type": "hardlink",
+      "sha256": "2bad6e8f42823be47d0e69279b06797b8e925cc3256a7c3c6486b15cbc78b10b",
+      "size_in_bytes": 74752
+    },
+    {
+      "_path": "lib/R/library/readxl/extdata/deaths.xlsx",
+      "path_type": "hardlink",
+      "sha256": "0469b75be78da0ca9b956d81e2338f32fa3f45b00622cef5e6d7a278897eb80a",
+      "size_in_bytes": 24656
+    },
+    {
+      "_path": "lib/R/library/readxl/extdata/geometry.xls",
+      "path_type": "hardlink",
+      "sha256": "12b54d0fe1da3e3cb33d5adc72abebdd7058acbc36fd8d09f4123e8d08c513f9",
+      "size_in_bytes": 65024
+    },
+    {
+      "_path": "lib/R/library/readxl/extdata/geometry.xlsx",
+      "path_type": "hardlink",
+      "sha256": "43ea0902a11566986dfcc5cde8fa6cc4b16e0c8e0bd26552cd28c22559eff9ca",
+      "size_in_bytes": 19504
+    },
+    {
+      "_path": "lib/R/library/readxl/extdata/type-me.xls",
+      "path_type": "hardlink",
+      "sha256": "a11da3565cbac33e792d0ddea8319f60a76b8fa973240c5a745f60b89ce75534",
+      "size_in_bytes": 71168
+    },
+    {
+      "_path": "lib/R/library/readxl/extdata/type-me.xlsx",
+      "path_type": "hardlink",
+      "sha256": "fde5a5254e2d6e6c9d39740e011401ed87c7b6a518944e206c7aeebdbc662cd8",
+      "size_in_bytes": 28259
+    },
+    {
+      "_path": "lib/R/library/readxl/help/AnIndex",
+      "path_type": "hardlink",
+      "sha256": "d53a04c3abe651308a5ab445022f05232e0dd706fcefc41b535ea8a2ed51fc4d",
+      "size_in_bytes": 464
+    },
+    {
+      "_path": "lib/R/library/readxl/help/aliases.rds",
+      "path_type": "hardlink",
+      "sha256": "bf6447f98eea554707ced5446f3853d7e0b69580fec6f0c777cafbd3af6fd121",
+      "size_in_bytes": 239
+    },
+    {
+      "_path": "lib/R/library/readxl/help/figures/logo.png",
+      "path_type": "hardlink",
+      "sha256": "7b6295cf43a3574b3b2e05c53d18021bab102d3313b26965f2f9a4672836ed1e",
+      "size_in_bytes": 23659
+    },
+    {
+      "_path": "lib/R/library/readxl/help/paths.rds",
+      "path_type": "hardlink",
+      "sha256": "15d592e437546e2a021b772a3c51af20fa1647f7d77a663f5e1c3e43f972fe60",
+      "size_in_bytes": 223
+    },
+    {
+      "_path": "lib/R/library/readxl/help/readxl.rdb",
+      "path_type": "hardlink",
+      "sha256": "4cff45465db8218a439e548ee6a821f1709591c67cf41746a286e349aef81187",
+      "size_in_bytes": 17905
+    },
+    {
+      "_path": "lib/R/library/readxl/help/readxl.rdx",
+      "path_type": "hardlink",
+      "sha256": "9025a38895100254da7655268de9d02b2e84c11d7fbb0bdc8df77534647491fa",
+      "size_in_bytes": 321
+    },
+    {
+      "_path": "lib/R/library/readxl/html/00Index.html",
+      "path_type": "hardlink",
+      "sha256": "24e4f7ec15d3b297978d8eb37750ff6c69169b2db2b30190d439af7bb911f298",
+      "size_in_bytes": 2754
+    },
+    {
+      "_path": "lib/R/library/readxl/html/R.css",
+      "path_type": "hardlink",
+      "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+      "size_in_bytes": 1335
+    },
+    {
+      "_path": "lib/R/library/readxl/html/cell-specification.html",
+      "path_type": "hardlink",
+      "sha256": "a0ca63abdac8c30ebd72ff14e02bc976329c39efc1887962a5bbdeb202497b43",
+      "size_in_bytes": 3490
+    },
+    {
+      "_path": "lib/R/library/readxl/html/excel_format.html",
+      "path_type": "hardlink",
+      "sha256": "98bffeb12ffbbe42442c9e49a9d53fa44059df87fc6130719d8e70cc570c152a",
+      "size_in_bytes": 2575
+    },
+    {
+      "_path": "lib/R/library/readxl/html/excel_sheets.html",
+      "path_type": "hardlink",
+      "sha256": "1d91d4e9f9c86782f3685c2092956bcc8f7da9fb2138b16316426c861285f25b",
+      "size_in_bytes": 1287
+    },
+    {
+      "_path": "lib/R/library/readxl/html/read_excel.html",
+      "path_type": "hardlink",
+      "sha256": "b75b5e5504c79e939ac43d7b7b04fee707c3ebbb389d5d8eb030ad384f1365f8",
+      "size_in_bytes": 8048
+    },
+    {
+      "_path": "lib/R/library/readxl/html/readxl-package.html",
+      "path_type": "hardlink",
+      "sha256": "548b28041a8bd8d396a6de33224d6aa64a0ab83e3644ec0b04baf93738abaf57",
+      "size_in_bytes": 2586
+    },
+    {
+      "_path": "lib/R/library/readxl/html/readxl_example.html",
+      "path_type": "hardlink",
+      "sha256": "3a3e529a6f74a55dec95dfbc165dd23539b6ee4773982c9ad923046033757b31",
+      "size_in_bytes": 1219
+    },
+    {
+      "_path": "lib/R/library/readxl/html/readxl_progress.html",
+      "path_type": "hardlink",
+      "sha256": "026b441dc29a5b3f40a5d888b9a7db5a88c2faf6dabc3634f3f79e89bb687228",
+      "size_in_bytes": 1486
+    },
+    {
+      "_path": "lib/R/library/readxl/libs/x64/readxl.dll",
+      "path_type": "hardlink",
+      "sha256": "a50d98757f66763abfb07556941a48f61efed92fdecec1f463eb69b227e699fa",
+      "size_in_bytes": 402944
+    }
+  ],
+  "paths_version": 1
+}

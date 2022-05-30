@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h6538335_1011",
+  "build_number": 1011,
+  "depends": [
+    "vc 14.*"
+  ],
+  "license": "EPL v1.0",
+  "license_family": "Other",
+  "name": "graphviz",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1548001964690,
+  "version": "2.38.0"
+}

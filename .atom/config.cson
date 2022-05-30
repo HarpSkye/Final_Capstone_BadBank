@@ -1,0 +1,8 @@
+"*":
+  core:
+    uriHandlerRegistration: "always"
+  "exception-reporting":
+    userId: "c406eef5-e8ae-4e9b-a3b8-51088b1f06f6"
+  "linter-eslint":
+    autofix:
+      fixOnSave: true

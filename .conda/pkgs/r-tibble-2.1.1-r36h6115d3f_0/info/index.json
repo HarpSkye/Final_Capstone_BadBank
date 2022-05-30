@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.6,<3.7.0a0",
+    "r-cli >=1.0.1",
+    "r-crayon >=1.3.4",
+    "r-fansi >=0.4.0",
+    "r-pillar >=1.3.1",
+    "r-pkgconfig >=2.0.2",
+    "r-rlang >=0.3.1"
+  ],
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "name": "r-tibble",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1557993854974,
+  "version": "2.1.1"
+}

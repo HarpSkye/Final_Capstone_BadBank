@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-magrittr",
+    "r-rlang >=0.3.1"
+  ],
+  "license": "Apache License (>= 2.0)",
+  "license_family": "APACHE",
+  "name": "r-forge",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1557955907784,
+  "version": "0.2.0"
+}
