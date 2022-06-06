@@ -19,12 +19,16 @@ function CreateAccount(){
         if (!validate(name,     'name'))    return;
         if (!validate(email,    'email'))   return;
         if (!validate(password, 'password'))    return;
-        const url = `/account/create/${name}/${email}/${password}`;
+        const url = `http://localhost:3001/accounts/deposit`;
         (async () => {
-            var res = await fetch(url);
+            var res = await fetch(`${url}?${new URLSearchParams({name, email, password})}`
+            ,{
+                method: 'POST',
+            });
             var data = await res.json();
             console.log(data);
         })();
+        
         setShow(false);
     }
 

@@ -17,9 +17,11 @@ function Login(){
         console.log(email, password);
         if(!validate(email, 'email')) return;
         if(!validate(password, 'password')) return;
-        const url = `/account/login/${email}/${password}`;
+        const url = `http://localhost:3001/accounts/login`;
         (async ()=>{
-            var res = await fetch(url);
+            var res = await fetch(`${url}?${new URLSearchParams({email, password})}`, {
+                method: 'POST',
+            });
             var data = await res.json();
             console.log(data)
         })();

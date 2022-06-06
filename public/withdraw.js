@@ -20,11 +20,19 @@ function Withdraw(){
     function handleWithdraw(){
         console.log(withdraw);
         if (!validate(withdraw, 'withdraw')) return;
-        const url=`/account/deposit/${email}/${amount}`;
+        const url = `http://localhost:3001/accounts/deposit`;
         (async ()=> {
-            var res = await fetch(url);
+            var res = await fetch(`${url}?${new URLSearchParams({amount})}`)
+            ,{ 
+                method: 'POST',
+            });
             var data = await res.json();
+            console.log(data);
+        
+            var data = await res.json();
+            console.log(data);
         })();
+
         setShow(false);
     }
 
@@ -40,7 +48,7 @@ function Withdraw(){
             Status={status}
             body={show ? (
                     <>
-                    Balance     <br/>
+                    Balance    {balance}<br/>
                     <input type="number" className="form-control" id="input"
                     placeholder="Withdraw" value={withdraw} onChange={e => setWithdraw(e.currentTarget.value)} /><br/>
                     <button type="submit" className="btn btn-light" onClick={handleWithdraw}>Withdraw</button>

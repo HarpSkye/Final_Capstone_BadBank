@@ -3,6 +3,7 @@ function Deposit(){
     const [status, setStatus] = React.useState('');
     const [email, setEmail] = React.useState('');
     const [amount, setAmount] = React.useState('');
+    const [deposit, setDeposit] = React.useState(0);
 
     //const [deposit, setDeposit] = React.useState('');
 
@@ -16,12 +17,15 @@ function Deposit(){
     }
     
     
-    function handleDeposit(){
+    function handleDeposit(amount){
         console.log(amount);
         if (!validate(deposit, 'amount')) return;
-        const url = `/account/deposit/${email}/${amount}`;
+        const url = `http://localhost:3001/accounts/deposit`;
         (async ()=>{
-            var res = await fetch(url);
+            var res = await fetch(`${url}?${new URLSearchParams({amount})}`
+            , {
+                method: 'POST',
+            });
             var data = await res.json();
             console.log(data);
         })();
@@ -41,7 +45,7 @@ function Deposit(){
             Status={status}
             body={show ? (
                     <>
-                    Balance         $100<br/>
+                    Balance  {balance}<br/>
                     <input type="input" className="form-control" id="input"
                     placeholder="Deposit" value={amount} onChange={e => setAmount(e.currentTarget.value)} /><br/>
                     <button type="submit" className="btn btn-light" onClick={handleDeposit}>amount</button>
