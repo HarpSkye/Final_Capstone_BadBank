@@ -9,7 +9,6 @@ function Deposit(){
     const {user} = React.useContext(UserContext);
     //const [deposit, setDeposit] = React.useState('');
 
-    const getBalance = 
 
     React.useEffect(() => {
         const getBalance = async (id) => {
