@@ -8,17 +8,24 @@ function Spa(){
         //<NavBar/>
         <HashRouter>
             <div>
-                <NavBar/>
                 <UserContext.Provider value={{user}}> 
+                    <NavBar setUser={setUser}/>
                     <div className = "container" style={{padding: "20px"}}>
-                     
+
                         <Route path="/" exact component={Home}></Route>
-                        <Route path="/CreateAccount/" component={CreateAccount}></Route>
-                        <Route path="/login/" render={() => <Login setUser={setUser} />}></Route>
-                        <Route path="/deposit/" component={Deposit}></Route>
-                        <Route path="/withdraw/" component={Withdraw}></Route>
-                        {/* <Route path="/balance/" component={Balance}></Route> */}
-                        <Route path="/alldata/" component={AllData}></Route>
+                        { !user ?
+                            <>
+                                <Route path="/CreateAccount/" component={CreateAccount}></Route>
+                                <Route path="/login/" render={() => <Login setUser={setUser} />}></Route>
+                            </> :
+                            <>
+                                <Route path="/deposit/" component={Deposit}></Route>
+                                <Route path="/withdraw/" component={Withdraw}></Route>
+                                {/* <Route path="/balance/" component={Balance}></Route> */}
+                                <Route path="/alldata/" component={AllData}></Route>
+                            </>
+                        }
+
                      </div>
                 </UserContext.Provider>      
             </div>

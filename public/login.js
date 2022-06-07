@@ -4,7 +4,7 @@ function Login({setUser}){
     const [email, setEmail] = React.useState('');
     const [password, setPassword] = React.useState('');
 
-    const user = React.useContext(UserContext);
+    const {user} = React.useContext(UserContext);
 
     function validate(field, label){
         if (!field){
