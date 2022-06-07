@@ -1,8 +1,10 @@
-function Login(){
+function Login({setUser}){
     const [show, setShow]   = React.useState(true);
     const [status, setStatus] = React.useState('');
     const [email, setEmail] = React.useState('');
     const [password, setPassword] = React.useState('');
+
+    const user = React.useContext(UserContext);
 
     function validate(field, label){
         if (!field){
@@ -13,18 +15,21 @@ function Login(){
             return true;
     }
     
-    function handleLogin(){
+    const handleLogin = async () => {
         console.log(email, password);
         if(!validate(email, 'email')) return;
         if(!validate(password, 'password')) return;
         const url = `http://localhost:3001/accounts/login`;
-        (async ()=>{
-            var res = await fetch(`${url}?${new URLSearchParams({email, password})}`, {
-                method: 'POST',
-            });
-            var data = await res.json();
-            console.log(data)
-        })();
+        const res = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({email, password})
+        });
+        var data = await res.json();
+        setUser(data);
+        console.log(data)
         setShow(false);
     }
 

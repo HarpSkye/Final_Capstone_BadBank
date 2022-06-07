@@ -10,6 +10,8 @@ var md5 = require('js-md5');
 app.use(express.static('public'));
 app.use(cors());
 app.use(require('body-parser').urlencoded({ extended: false }));
+ app.use(express.json());
+app.use(express.raw());
 
 const token = 'aaa-bbb-ccc';
 
@@ -46,9 +48,10 @@ const token = 'aaa-bbb-ccc';
 // account/login?email=j@j.com&password=1234
 // login user
 app.post('/accounts/login', function (req, res) {
-    const passwordHash = md5(req.query.password);
+    console.log(req);
+    const passwordHash = md5(req.body.password);
     dal
-        .checkLogin(req.query.email, passwordHash)
+        .checkLogin(req.body.email, passwordHash)
         .then((response) => {
             res.send({
                 id: response._id,
