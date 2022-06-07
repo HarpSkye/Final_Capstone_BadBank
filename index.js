@@ -12,7 +12,6 @@ app.use(cors());
 app.use(require('body-parser').urlencoded({ extended: false }));
  app.use(express.json());
 app.use(express.raw());
-
 const token = 'aaa-bbb-ccc';
 
 /* app.get('/login', function(req, resp){
@@ -114,7 +113,7 @@ app.get('/accounts/:id', (req, res, next) => {
 app.post('/accounts/:id/deposit', async (req, res, next) => {
     const id = req.params.id;
     const depositAmount = req.query.amount;
-
+    if(!(depositAmount > 0)) next('Deposit must be greater than 0');
     try {
         const newBalance = await dal.deposit(id, depositAmount);
     

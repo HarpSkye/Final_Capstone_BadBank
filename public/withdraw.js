@@ -22,8 +22,7 @@ function Withdraw(){
         if (!validate(withdraw, 'withdraw')) return;
         const url = `http://localhost:3001/accounts/deposit`;
         (async ()=> {
-            var res = await fetch(`${url}?${new URLSearchParams({amount})}`)
-            ,{ 
+            var res = await fetch(`${url}?${new URLSearchParams({amount})}`,{ 
                 method: 'POST',
             });
             var data = await res.json();
