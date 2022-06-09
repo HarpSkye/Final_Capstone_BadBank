@@ -22,7 +22,9 @@ function Spa(){
                                 <Route path="/deposit/" component={Deposit}></Route>
                                 <Route path="/withdraw/" component={Withdraw}></Route>
                                 {/* <Route path="/balance/" component={Balance}></Route> */}
-                                <Route path="/alldata/" component={AllData}></Route>
+                                { user.isAdmin &&
+                                    <Route path="/alldata/" component={AllData}></Route>
+                                }
                             </>
                         }
 

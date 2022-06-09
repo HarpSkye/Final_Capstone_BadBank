@@ -1,6 +1,5 @@
 function NavBar({setUser}){
     const { user } = React.useContext(UserContext);
-
     return(
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <a className="navbar-brand" href="#">BadBank</a>
@@ -25,9 +24,11 @@ function NavBar({setUser}){
                                         <li className="nav-item">
                                             <a className="nav-link" href="#/withdraw/">Withdraw</a>
                                         </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#/alldata/">AllData</a>
-                                        </li>
+                                        { user.isAdmin &&
+                                            <li className="nav-item">
+                                                <a className="nav-link" href="#/alldata/">AllData</a>
+                                            </li>
+                                        }
                                         <button onClick={() => setUser(undefined)}>Logout</button>
                                     </>
                             }

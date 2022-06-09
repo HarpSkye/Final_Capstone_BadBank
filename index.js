@@ -57,6 +57,7 @@ app.post('/accounts/login', function (req, res) {
                 name: response.name,
                 email: response.email,
                 token,
+                isAdmin: response.isAdmin,
             });
         })
         .catch(() => {
@@ -80,22 +81,40 @@ app.post('/accounts', function(req, res){
 });
 
 // all accounts
-app.get('/accounts', function(req, res){
-    dal.all().
-        then ((docs) => {
-            console.log(docs);
-            res.send(docs);
-        });
+app.get('/accounts', async function(req, res, next){
+    // try {
+    //     const userId = req.body.id;
+    //     if(!userId) throw new Error('User cannot be authenticated');
+    //     const _isAdmin = await dal.isAdmin(userId);
+
+    //     if(_isAdmin) {
+            dal.all()
+                .then ((docs) => {
+                    console.log(docs);
+                    res.send(docs);
+                });
+    //     }
+    //     else throw new Error('User does not have permission');    
+    // } catch(e) {next(e)}
 });
 
-app.delete('/accounts', (req, res, next) => {
-    dal.deleteAllUsers()
-        .then(() => {
-            res.send('Success');
-        })
-        .catch(err => {
-            next(err);
-        });
+app.delete('/accounts', async (req, res, next) => {
+    try {
+        const userId = req.body.id;
+        if(!userId) throw new Error('User cannot be authenticated');
+        const _isAdmin = await dal.isAdmin(userId);
+
+        if(_isAdmin) {
+            dal.deleteAllUsers()
+            .then(() => {
+                res.send('Success');
+            })
+            .catch(err => {
+                next(err);
+            });
+        }
+        else throw new Error('User does not have permission');
+    } catch (e) {next(e)}
 });
 
 app.get('/accounts/:id', (req, res, next) => {
@@ -103,6 +122,16 @@ app.get('/accounts/:id', (req, res, next) => {
         .then((account) => {
             console.log(account);
             res.send(account)
+        })
+        .catch(err => {
+            next(err);
+        })
+})
+
+app.get('/accounts/:id/toggleAdmin', (req, res, next) => {
+    dal.toggleAdmin(req.params.id)
+        .then((bool) => {
+            res.send({ isAdmin: bool });
         })
         .catch(err => {
             next(err);

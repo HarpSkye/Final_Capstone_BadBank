@@ -16,7 +16,7 @@ MongoClient.connect(url, {useUnifiedTopology: true}, function(err, client){
 function createUser(name, email, password){
     return new Promise((resolve, reject) => {
         const collection = db.collection('users');
-        const doc = {name, email, password, balance: 0};
+        const doc = {name, email, password, balance: 0, isAdmin: false};
         collection.insertOne(doc, {w:1}, function(err, result){
             err ? reject(err) : resolve(doc);
         });
@@ -52,15 +52,12 @@ const deleteAllUsers = async () => {
     return await db.collection('users').deleteMany({});
 }
 
-const getAccount = id => {
-    return new Promise((resolve, reject) => {
-        try {
-            db.collection('users')
-                .findOne({_id: new mongodb.ObjectID(id)}, (err, result) => err ? reject(err) : resolve(result))
-        } catch(err) {
-            reject(err);
-        }
-    })
+const getAccount = async id => {
+            const user = await db.collection('users')
+                .findOne({_id: new mongodb.ObjectID(id)});
+            if (!user) throw new Error('No user found for that id');
+
+            return user;
 }
 
 const updateBalance = async (id, balance) => {
@@ -78,6 +75,7 @@ const updateBalance = async (id, balance) => {
 
 const withdraw = async (id, amount) => {
         const account = await getAccount(id);
+        if(!account) throw new Error('Could not find account');
         const newBalance = (account.balance * 1) - (amount * 1);
         if (account.balance >= amount) {
             await updateBalance(id, newBalance);
@@ -88,9 +86,35 @@ const withdraw = async (id, amount) => {
 
 const deposit = async (id, amount) => {
     const account = await getAccount(id);
+    if(!account) throw new Error('Could not find account');
+
     const newBalance = (account.balance * 1) + (amount * 1)
     await updateBalance(id, newBalance);
     return newBalance
 }
 
-module.exports = {createUser, checkLogin, all, deleteAllUsers, getAccount, withdraw, deposit};
+const isAdmin = async (id) => {
+    const account = await getAccount(id);
+    if(!account) throw new Error('Could not find account');
+    return account.isAdmin;
+}
+
+const toggleAdmin = async (id) => {
+    const _isAdmin = await isAdmin(id);
+
+    const bool = !_isAdmin;
+
+    const result = await db.collection('users')
+        .updateOne(
+            {_id: new mongodb.ObjectID(id)},
+            {
+                $set: {
+                    isAdmin: bool
+                },
+            },
+        )
+    
+    return bool;
+}
+
+module.exports = {createUser, checkLogin, all, deleteAllUsers, getAccount, withdraw, deposit, isAdmin, toggleAdmin};
