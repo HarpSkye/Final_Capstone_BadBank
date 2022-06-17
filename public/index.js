@@ -11,7 +11,7 @@ function Spa() {
     } else {
       localStorage.removeItem('user');
     }
-    setUserData(data);
+    setUserData({ ...data, id: data.id || data._id, _id: data.id || data._id });
   };
 
   return (
