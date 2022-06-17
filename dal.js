@@ -1,7 +1,7 @@
 // const {resolve} = require('path');
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
-const url = 'mongodb://localhost:27017';
+const url = process.env.MONGODB_URI || 'mongodb://localhost:27017';
 let db = null;
 
 // connect to mongo
