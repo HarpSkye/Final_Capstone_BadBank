@@ -17,7 +17,7 @@ function Withdraw(){
             setBalance(data.balance);
         }
 
-        getBalance(user.id);
+        getBalance(user._id);
     }, []);
 
     function validateWithdraw(field, label){
@@ -39,7 +39,7 @@ function Withdraw(){
     const handleWithdraw = async () =>{
         console.log(amount);
         if (!validateWithdraw(amount, 'withdraw')) return;
-        const url = `/accounts/${user.id}/withdraw`;
+        const url = `/accounts/${user._id}/withdraw`;
         const res = await fetch(`${url}?${new URLSearchParams({amount})}`,{ 
             method: 'POST',
         });

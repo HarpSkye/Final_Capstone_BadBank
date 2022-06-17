@@ -6,7 +6,11 @@ function Spa() {
   );
 
   const setUser = (data) => {
-    localStorage.setItem('user', JSON.stringify(data));
+    if (data) {
+      localStorage.setItem('user', JSON.stringify(data));
+    } else {
+      localStorage.removeItem('user');
+    }
     setUserData(data);
   };
 

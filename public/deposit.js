@@ -18,7 +18,7 @@ function Deposit(){
             setBalance(data.balance);
         }
 
-        getBalance(user.id);
+        getBalance(user._id);
     }, []);
 
     function validateDeposit(field, label){
@@ -39,7 +39,7 @@ function Deposit(){
     const handleDeposit = async () => {
         console.log(amount);
         if (!validateDeposit(amount, 'amount')) return;
-        const url = `/accounts/${user.id}/deposit`;
+        const url = `/accounts/${user._id}/deposit`;
         const res = await fetch(`${url}?${new URLSearchParams({amount})}`
         , {
             method: 'POST',

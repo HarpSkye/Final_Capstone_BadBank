@@ -9,6 +9,4 @@ const firebaseConfig = {
   };
  firebase.initializeApp(firebaseConfig);
 
-const firebaseAuth = firebase.auth() //firebaseApp.firebase.auth()//firebaseApp.auth();
-// const { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } = firebaseAuth
-//console.log('yoo==>>', firebaseApp.auth().createUserWithEmailAndPassword)
+const firebaseAuth = firebase.auth();
