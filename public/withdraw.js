@@ -7,11 +7,11 @@ function Withdraw(){
     const [amount, setAmount] = React.useState(0);
     const [balance, setBalance] = React.useState(0);
 
-    const {user} = React.useContext(UserContext);
+    const {user, setUser} = React.useContext(UserContext);
 
     React.useEffect(() => {
         const getBalance = async (id) => {
-            const url = `http://localhost:3001/accounts/${id}`;
+            const url = `/accounts/${id}`;
             const resp = await fetch(url);
             const data = await resp.json();
             setBalance(data.balance);
@@ -39,14 +39,13 @@ function Withdraw(){
     const handleWithdraw = async () =>{
         console.log(amount);
         if (!validateWithdraw(amount, 'withdraw')) return;
-        const url = `http://localhost:3001/accounts/${user.id}/withdraw`;
+        const url = `/accounts/${user.id}/withdraw`;
         const res = await fetch(`${url}?${new URLSearchParams({amount})}`,{ 
             method: 'POST',
         });
         const data = await res.json();
         setBalance(data.newBalance);
-        console.log(data);
-
+        setUser({...user, balance: data.newBalance});
         setShow(false);
     }
 

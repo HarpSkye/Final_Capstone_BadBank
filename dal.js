@@ -13,10 +13,10 @@ MongoClient.connect(url, {useUnifiedTopology: true}, function(err, client){
 });
 
 // create user account
-function createUser(name, email, password){
+function createUser(data){
     return new Promise((resolve, reject) => {
         const collection = db.collection('users');
-        const doc = {name, email, password, balance: 0, isAdmin: false};
+        const doc = {...data, balance: 0}
         collection.insertOne(doc, {w:1}, function(err, result){
             err ? reject(err) : resolve(doc);
         });

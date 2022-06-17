@@ -6,13 +6,13 @@ function Deposit(){
     const [deposit, setDeposit] = React.useState(0);
     const [balance, setBalance] = React.useState(0);
 
-    const {user} = React.useContext(UserContext);
+    const {user, setUser} = React.useContext(UserContext);
     //const [deposit, setDeposit] = React.useState('');
 
 
     React.useEffect(() => {
         const getBalance = async (id) => {
-            const url = `http://localhost:3001/accounts/${id}`;
+            const url = `/accounts/${id}`;
             const resp = await fetch(url);
             const data = await resp.json();
             setBalance(data.balance);
@@ -39,15 +39,14 @@ function Deposit(){
     const handleDeposit = async () => {
         console.log(amount);
         if (!validateDeposit(amount, 'amount')) return;
-        const url = `http://localhost:3001/accounts/${user.id}/deposit`;
+        const url = `/accounts/${user.id}/deposit`;
         const res = await fetch(`${url}?${new URLSearchParams({amount})}`
         , {
             method: 'POST',
         });
         var data = await res.json();
         setBalance(data.newBalance);
-        console.log(data);
-        
+        setUser({...user, balance: data.newBalance});
         setShow(false);
     }
 

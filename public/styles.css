@@ -1,0 +1,15 @@
+
+html,
+body {
+  height: 100%;
+  background-color: rgba(212, 224, 255);
+}
+
+
+.card {
+  margin: 0 auto; 
+  float: none; 
+  margin-top: 50px;
+  margin-bottom: 10px; 
+  font-size: medium;
+  }

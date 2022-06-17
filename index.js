@@ -9,45 +9,13 @@ var md5 = require('js-md5');
 // used to serve static files from public directory
 app.use(express.static('public'));
 app.use(cors());
-app.use(require('body-parser').urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }));
  app.use(express.json());
 app.use(express.raw());
 const token = 'aaa-bbb-ccc';
 
-/* app.get('/login', function(req, resp){
-    // do a thing
-    // req -> { username: ....., password: ..... };
-    // get login information -- this is complex. we'll get here in a minute
-    // return resp -> jwt, access token 
-}) */
-// create user account
-// user enters info in form, clicks submit
-// browser makes options request to server.com/account/create
-// options comes back successful
-// browser makes GET request to server.com/account/create with payload {name: ..., email:...., password: ... ////}
-/* app.post('/account/create/:name/:email/:password', function(req, res){
-    // req = {name, email, password}
-    // creates account
-    // sends back account info
-
-    const { name, email, password } = req.params;
-
-    // open db connection
-    // add account to db
-
-    res.send({
-        name:   req.params.name,
-        email:  req.params.email,
-        password: req.params.password
-    });
-});
- */
-
-// account/login/j@j.com/1234
-// account/login?email=j@j.com&password=1234
 // login user
-app.post('/accounts/login', function (req, res) {
-    console.log(req);
+app.post('/accounts/login', function (req, res, next) {
     const passwordHash = md5(req.body.password);
     dal
         .checkLogin(req.body.email, passwordHash)
@@ -58,6 +26,7 @@ app.post('/accounts/login', function (req, res) {
                 email: response.email,
                 token,
                 isAdmin: response.isAdmin,
+                balance: response.balance
             });
         })
         .catch(() => {
@@ -65,16 +34,14 @@ app.post('/accounts/login', function (req, res) {
         });
 });
 
-// get one account
-// /account/{id}
 
 // create user account with dal
 app.post('/accounts', function(req, res){
-    if (req.query.name && req.query.email && req.query.password) {
+    if (req.body.name && req.body.email && req.body.password) {
     // else create user
-        dal.createUser(req.query.name, req.query.email, md5(req.query.password)).
+        req.body.password = md5(req.body.password);
+        dal.createUser(req.body).
             then((user) => {
-                console.log(user)
                 res.send(user);
             });
     }
@@ -82,20 +49,12 @@ app.post('/accounts', function(req, res){
 
 // all accounts
 app.get('/accounts', async function(req, res, next){
-    // try {
-    //     const userId = req.body.id;
-    //     if(!userId) throw new Error('User cannot be authenticated');
-    //     const _isAdmin = await dal.isAdmin(userId);
 
-    //     if(_isAdmin) {
             dal.all()
                 .then ((docs) => {
-                    console.log(docs);
                     res.send(docs);
                 });
-    //     }
-    //     else throw new Error('User does not have permission');    
-    // } catch(e) {next(e)}
+
 });
 
 app.delete('/accounts', async (req, res, next) => {
@@ -179,6 +138,5 @@ app.get('/account/balance/:balance/:name/:email/:password', function(req, res){
     });
 });
 
-var port = 3001;
-app.listen(port);
-console.log('Running on port: ' + port);
+var port = process.env.PORT || 3001;
+app.listen(port, () => console.log('Running on port: ' + port));

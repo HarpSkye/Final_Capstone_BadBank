@@ -1,4 +1,4 @@
-function Login({setUser}){
+function Login({setUser, history}){
     const [show, setShow]   = React.useState(true);
     const [status, setStatus] = React.useState('');
     const [email, setEmail] = React.useState('');
@@ -19,7 +19,7 @@ function Login({setUser}){
         console.log(email, password);
         if(!validate(email, 'email')) return;
         if(!validate(password, 'password')) return;
-        const url = `http://localhost:3001/accounts/login`;
+        const url = `/accounts/login`;
         const res = await fetch(url, {
             method: 'POST',
             headers: {
@@ -28,9 +28,10 @@ function Login({setUser}){
             body: JSON.stringify({email, password})
         });
         var data = await res.json();
+        await firebaseAuth.signInWithEmailAndPassword(email, password);
         setUser(data);
-        console.log(data)
         setShow(false);
+        history.push('/deposit/');      
     }
 
     function clearForm(){
@@ -45,15 +46,16 @@ function Login({setUser}){
             header="Login"
             status={status}
             body={show ? (
-                    <>
+                    
+                    <form onSubmit={handleLogin}>
                     Email<br/>
-                    <input type="input" className="form-control" id="email" placeholder="Enter email" 
+                    <input type="email" className="form-control" id="email" placeholder="Enter email" 
                     value={email} onChange={e => setEmail(e.currentTarget.value)}/><br/>
                     Password<br/>
                     <input type="password" className="form-control" id="password"
                     placeholder="Enter password" value={password} onChange={e => setPassword(e.currentTarget.value)}/><br/>
-                    <button type="submit" className="btn btn-light" onClick={handleLogin}>Login</button>
-                    </>
+                    <button type="submit" className="btn btn-light">Login</button>
+                    </form>
             ):(
                 <>
                 <h5>Success</h5>

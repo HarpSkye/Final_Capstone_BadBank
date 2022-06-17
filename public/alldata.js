@@ -3,7 +3,7 @@ function AllData(){
 
     React.useEffect(() => {
         // fetch all accounts from API
-        fetch('http://localhost:3001/accounts')
+        fetch('/accounts')
             .then(response => response.json())
             .then(data => {
                 console.log(data);
